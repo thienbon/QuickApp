@@ -10,3 +10,4 @@ C:\Users\kuro1\source\repos\Quick Application3\Quick Application3\Quick_Applicat
 C:\Users\kuro1\source\repos\Quick Application3\Quick Application3\Quick_Application3.Core\obj\Debug\net8.0\refint\Quick_Application3.Core.dll
 C:\Users\kuro1\source\repos\Quick Application3\Quick Application3\Quick_Application3.Core\obj\Debug\net8.0\Quick_Application3.Core.pdb
 C:\Users\kuro1\source\repos\Quick Application3\Quick Application3\Quick_Application3.Core\obj\Debug\net8.0\ref\Quick_Application3.Core.dll
+C:\Users\kuro1\source\repos\Quick Application3\Quick Application3\Quick_Application3.Core\obj\Debug\net8.0\Quick_Application3.Core.sourcelink.json

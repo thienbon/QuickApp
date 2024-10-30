@@ -56,12 +56,11 @@ export class LoginComponent implements OnInit, OnDestroy {
       const elapsedTime = Date.now() - timestamp;
 
       if (isBlocked && elapsedTime < this.BLOCK_DURATION) {
-        // Still within block duration
         this.isBlocked = true;
         this.failedAttempts = failedAttempts;
         this.remainingTime = Math.ceil((this.BLOCK_DURATION - elapsedTime) / 1000);
 
-        // Set up block timeout for remaining duration
+      
         this.blockTimeout = setTimeout(() => {
           this.isBlocked = false;
           this.failedAttempts = 0;
@@ -74,7 +73,7 @@ export class LoginComponent implements OnInit, OnDestroy {
           );
         }, this.BLOCK_DURATION - elapsedTime);
 
-        // Start countdown timer
+        
         this.countdownInterval = setInterval(() => {
           this.remainingTime--;
           if (this.remainingTime <= 0 && this.countdownInterval) {
@@ -122,7 +121,7 @@ export class LoginComponent implements OnInit, OnDestroy {
         timestamp: Date.now(),
         failedAttempts: this.failedAttempts
       }));
-      // Start countdown
+      
       this.countdownInterval = setInterval(() => {
         this.remainingTime--;
         if (this.remainingTime <= 0 && this.countdownInterval) {
@@ -169,7 +168,7 @@ export class LoginComponent implements OnInit, OnDestroy {
   }
 
   login() {
-    // First check if account is currently blocked
+    
     const blockedData = localStorage.getItem('loginBlocked');
     if (blockedData) {
       const { isBlocked, timestamp } = JSON.parse(blockedData);
@@ -200,7 +199,7 @@ export class LoginComponent implements OnInit, OnDestroy {
     this.authService.loginWithPassword(this.userLogin.userName, this.userLogin.password, this.userLogin.rememberMe)
       .subscribe({
         next: user => {
-          // Reset failed attempts and remove blocked state on successful login
+          
           this.failedAttempts = 0;
           localStorage.removeItem('loginBlocked');
 

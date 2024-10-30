@@ -47,7 +47,52 @@ namespace Quick_Application3.Server.Controllers
             return Ok(productVM);
         }
 
+        [HttpPost]
+        [ProducesResponseType(201, Type = typeof(ProductVM))]
+        [ProducesResponseType(400)]
+        public async Task<IActionResult> CreateProduct([FromBody] ProductVM productVM)
+        {
+            if (!ModelState.IsValid)
+                return BadRequest(ModelState);
+            var product = _mapper.Map<Product>(productVM);
+            var createdProduct = await _productService.CreateProductAsync(product);
+            var createdProductVM = _mapper.Map<ProductVM>(createdProduct);
+            return CreatedAtAction(nameof(GetProductById), new { id = createdProductVM.Id }, createdProductVM);
+        }
+
+        [HttpDelete("{id}")]
+        [ProducesResponseType(204)]
+        [ProducesResponseType(404)]
+        public async Task<IActionResult> DeleteProduct(int id)
+        {
+            var product = await _productService.GetProductByIdAsync(id);
+            if (product == null)
+                return NotFound(id);
+
+            await _productService.DeleteProductAsync(id);
+            return NoContent();
+        }
+        [HttpPut("{id}")]
+        [ProducesResponseType(204)]
+        [ProducesResponseType(400)]
+        [ProducesResponseType(404)]
+        public async Task<IActionResult> UpdateProduct(int id, [FromBody] ProductVM productVM)
+        {
+            if (!ModelState.IsValid)
+                return BadRequest(ModelState);
+            var product = _mapper.Map<Product>(productVM);
+            var updatedProduct = await _productService.UpdateProductAsync(id, product);
+            if (updatedProduct == null)
+                return NotFound(id);
+
+            return NoContent();
+        }
+
+
+
+
+
 
     }
-    
+
 }

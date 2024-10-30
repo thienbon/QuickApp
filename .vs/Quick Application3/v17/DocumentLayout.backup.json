@@ -1,0 +1,122 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\kuro1\\source\\repos\\Quick Application3\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{133F9807-6FE5-4B6E-BF46-2C96C3D4ABF8}|Quick Application3\\Quick_Application3.Core\\Quick_Application3.Core.csproj|c:\\users\\kuro1\\source\\repos\\quick application3\\quick application3\\quick_application3.core\\services\\shop\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{133F9807-6FE5-4B6E-BF46-2C96C3D4ABF8}|Quick Application3\\Quick_Application3.Core\\Quick_Application3.Core.csproj|solutionrelative:quick application3\\quick_application3.core\\services\\shop\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58C9503E-0F52-4BC9-B59A-89B079181F6A}|Quick Application3\\Quick_Application3.Server\\Quick_Application3.Server.csproj|c:\\users\\kuro1\\source\\repos\\quick application3\\quick application3\\quick_application3.server\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58C9503E-0F52-4BC9-B59A-89B079181F6A}|Quick Application3\\Quick_Application3.Server\\Quick_Application3.Server.csproj|solutionrelative:quick application3\\quick_application3.server\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{133F9807-6FE5-4B6E-BF46-2C96C3D4ABF8}|Quick Application3\\Quick_Application3.Core\\Quick_Application3.Core.csproj|c:\\users\\kuro1\\source\\repos\\quick application3\\quick application3\\quick_application3.core\\services\\shop\\interfaces\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{133F9807-6FE5-4B6E-BF46-2C96C3D4ABF8}|Quick Application3\\Quick_Application3.Core\\Quick_Application3.Core.csproj|solutionrelative:quick application3\\quick_application3.core\\services\\shop\\interfaces\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD957843-BD32-45D6-ADD6-D4AC5B4DDD55}|Quick Application3\\Quick_Application3.client\\Quick_Application3.client.esproj|c:\\users\\kuro1\\source\\repos\\quick application3\\quick application3\\quick_application3.client\\src\\app\\models\\product.model.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{AD957843-BD32-45D6-ADD6-D4AC5B4DDD55}|Quick Application3\\Quick_Application3.client\\Quick_Application3.client.esproj|solutionrelative:quick application3\\quick_application3.client\\src\\app\\models\\product.model.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58C9503E-0F52-4BC9-B59A-89B079181F6A}|Quick Application3\\Quick_Application3.Server\\Quick_Application3.Server.csproj|c:\\users\\kuro1\\source\\repos\\quick application3\\quick application3\\quick_application3.server\\viewmodels\\shop\\productvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58C9503E-0F52-4BC9-B59A-89B079181F6A}|Quick Application3\\Quick_Application3.Server\\Quick_Application3.Server.csproj|solutionrelative:quick application3\\quick_application3.server\\viewmodels\\shop\\productvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD957843-BD32-45D6-ADD6-D4AC5B4DDD55}|Quick Application3\\Quick_Application3.client\\Quick_Application3.client.esproj|c:\\users\\kuro1\\source\\repos\\quick application3\\quick application3\\quick_application3.client\\src\\app\\services\\auth.service.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{AD957843-BD32-45D6-ADD6-D4AC5B4DDD55}|Quick Application3\\Quick_Application3.client\\Quick_Application3.client.esproj|solutionrelative:quick application3\\quick_application3.client\\src\\app\\services\\auth.service.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ProductVM.cs",
+              "DocumentMoniker": "C:\\Users\\kuro1\\source\\repos\\Quick Application3\\Quick Application3\\Quick_Application3.Server\\ViewModels\\Shop\\ProductVM.cs",
+              "RelativeDocumentMoniker": "Quick Application3\\Quick_Application3.Server\\ViewModels\\Shop\\ProductVM.cs",
+              "ToolTip": "C:\\Users\\kuro1\\source\\repos\\Quick Application3\\Quick Application3\\Quick_Application3.Server\\ViewModels\\Shop\\ProductVM.cs",
+              "RelativeToolTip": "Quick Application3\\Quick_Application3.Server\\ViewModels\\Shop\\ProductVM.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAywAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-30T08:35:39.935Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IProductService.cs",
+              "DocumentMoniker": "C:\\Users\\kuro1\\source\\repos\\Quick Application3\\Quick Application3\\Quick_Application3.Core\\Services\\Shop\\Interfaces\\IProductService.cs",
+              "RelativeDocumentMoniker": "Quick Application3\\Quick_Application3.Core\\Services\\Shop\\Interfaces\\IProductService.cs",
+              "ToolTip": "C:\\Users\\kuro1\\source\\repos\\Quick Application3\\Quick Application3\\Quick_Application3.Core\\Services\\Shop\\Interfaces\\IProductService.cs",
+              "RelativeToolTip": "Quick Application3\\Quick_Application3.Core\\Services\\Shop\\Interfaces\\IProductService.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAwwBEAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-30T08:21:25.682Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "product.model.ts",
+              "DocumentMoniker": "C:\\Users\\kuro1\\source\\repos\\Quick Application3\\Quick Application3\\Quick_Application3.client\\src\\app\\models\\product.model.ts",
+              "RelativeDocumentMoniker": "Quick Application3\\Quick_Application3.client\\src\\app\\models\\product.model.ts",
+              "ToolTip": "C:\\Users\\kuro1\\source\\repos\\Quick Application3\\Quick Application3\\Quick_Application3.client\\src\\app\\models\\product.model.ts",
+              "RelativeToolTip": "Quick Application3\\Quick_Application3.client\\src\\app\\models\\product.model.ts",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2024-10-30T07:57:19.726Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ProductService.cs",
+              "DocumentMoniker": "C:\\Users\\kuro1\\source\\repos\\Quick Application3\\Quick Application3\\Quick_Application3.Core\\Services\\Shop\\ProductService.cs",
+              "RelativeDocumentMoniker": "Quick Application3\\Quick_Application3.Core\\Services\\Shop\\ProductService.cs",
+              "ToolTip": "C:\\Users\\kuro1\\source\\repos\\Quick Application3\\Quick Application3\\Quick_Application3.Core\\Services\\Shop\\ProductService.cs",
+              "RelativeToolTip": "Quick Application3\\Quick_Application3.Core\\Services\\Shop\\ProductService.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAowDsAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-30T07:33:40.317Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "C:\\Users\\kuro1\\source\\repos\\Quick Application3\\Quick Application3\\Quick_Application3.Server\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "Quick Application3\\Quick_Application3.Server\\Controllers\\ProductController.cs",
+              "ToolTip": "C:\\Users\\kuro1\\source\\repos\\Quick Application3\\Quick Application3\\Quick_Application3.Server\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "Quick Application3\\Quick_Application3.Server\\Controllers\\ProductController.cs",
+              "ViewState": "AgIAAEcAAAAAAAAAAAAuwE4AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-30T06:32:46.309Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "auth.service.ts",
+              "DocumentMoniker": "C:\\Users\\kuro1\\source\\repos\\Quick Application3\\Quick Application3\\Quick_Application3.client\\src\\app\\services\\auth.service.ts",
+              "RelativeDocumentMoniker": "Quick Application3\\Quick_Application3.client\\src\\app\\services\\auth.service.ts",
+              "ToolTip": "C:\\Users\\kuro1\\source\\repos\\Quick Application3\\Quick Application3\\Quick_Application3.client\\src\\app\\services\\auth.service.ts",
+              "RelativeToolTip": "Quick Application3\\Quick_Application3.client\\src\\app\\services\\auth.service.ts",
+              "ViewState": "AgIAAIUAAAAAAAAAAAAwwI4AAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2024-10-30T05:43:07.898Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -67,7 +67,6 @@ export class TodoDemoComponent implements OnInit, OnDestroy {
 
     this.saveToDisk();
   }
-  // Add these new methods
 toggleSortByImportant() {
   this._sortByImportant = !this._sortByImportant;
   this.sortTasks();
@@ -97,19 +96,15 @@ toggleSortByCompletion() {
     }
     this.sortTasks();
 
-    // Save changes
     this.saveToDisk();
   }
   clearCompleted() {
-    // Remove completed tasks from both arrays
     this.rowsCache = this.rowsCache.filter(task => !task.completed);
     this.rows = this.rows.filter(task => !task.completed);
 
-    // Refresh indexes and sort
     this.refreshDataIndexes(this.rowsCache);
     this.sortTasks();
 
-    // Save changes
     this.saveToDisk();
   }
 
@@ -132,13 +127,10 @@ toggleSortByCompletion() {
       return 0;
     });
 
-
-    // Apply hide completed filter if enabled
     if (this._hideCompletedTasks) {
       sortedRows = sortedRows.filter(r => !r.completed);
     }
 
-    // Update the rows
     this.rows = sortedRows;
   }
   
@@ -151,7 +143,6 @@ toggleSortByCompletion() {
   } else {
     this.rows = [...this.rowsCache];
   }
-  // Apply sorting after filtering
   if (this._sortByImportant || this._sortByCompletion) {
     this.sortTasks();
   }

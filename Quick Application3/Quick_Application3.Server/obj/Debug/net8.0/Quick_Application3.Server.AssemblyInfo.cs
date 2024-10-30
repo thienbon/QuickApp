@@ -16,7 +16,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCopyrightAttribute("Copyright © 2023 www.ebenmonney.com")]
 [assembly: System.Reflection.AssemblyDescriptionAttribute("ASPNET Core 8.0 - Angular 17 startup template for Quick Application Development")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("8.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("8.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("8.0.0+e7ab7a2b461fae9445420e91477f090eb1276fd8")]
 [assembly: System.Reflection.AssemblyProductAttribute("Quick_Application3.Server")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Quick_Application3.Server")]
 [assembly: System.Reflection.AssemblyVersionAttribute("8.0.0.0")]

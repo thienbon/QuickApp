@@ -305,3 +305,4 @@ C:\Users\kuro1\source\repos\Quick Application3\Quick Application3\Quick_Applicat
 C:\Users\kuro1\source\repos\Quick Application3\Quick Application3\Quick_Application3.Server\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Drawing.Common.dll
 C:\Users\kuro1\source\repos\Quick Application3\Quick Application3\Quick_Application3.Server\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Security.Cryptography.ProtectedData.dll
 C:\Users\kuro1\source\repos\Quick Application3\Quick Application3\Quick_Application3.Server\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Windows.Extensions.dll
+C:\Users\kuro1\source\repos\Quick Application3\Quick Application3\Quick_Application3.Server\obj\Debug\net8.0\Quick_Application3.Server.sourcelink.json

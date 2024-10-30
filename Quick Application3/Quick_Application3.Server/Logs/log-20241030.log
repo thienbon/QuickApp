@@ -721,3 +721,1245 @@ WHERE [a].[Id] = @__p_0" (0723d8ff)
 ""SELECT TOP(1) [a].[Id], [a].[BuyingPrice], [a].[CreatedBy], [a].[CreatedDate], [a].[Description], [a].[Icon], [a].[IsActive], [a].[IsDiscontinued], [a].[Name], [a].[ParentId], [a].[ProductCategoryId], [a].[SellingPrice], [a].[UnitsInStock], [a].[UpdatedBy], [a].[UpdatedDate]
 FROM [AppProducts] AS [a]
 WHERE [a].[Id] = @__p_0" (0723d8ff)
+2024-10-30T09:22:14.9930581+07:00  [WRN] The WebRootPath was not found: "C:\Users\kuro1\source\repos\Quick Application3\Quick Application3\Quick_Application3.Server\wwwroot". Static files may be unavailable. (3ae2c740)
+2024-10-30T09:22:20.5688273+07:00  [INF] Executed DbCommand ("82"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT 1" (0723d8ff)
+2024-10-30T09:22:20.6745057+07:00  [INF] Executed DbCommand ("65"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT OBJECT_ID(N'[__EFMigrationsHistory]');" (0723d8ff)
+2024-10-30T09:22:20.6857758+07:00  [INF] Executed DbCommand ("2"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT 1" (0723d8ff)
+2024-10-30T09:22:20.6929550+07:00  [INF] Executed DbCommand ("2"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT OBJECT_ID(N'[__EFMigrationsHistory]');" (0723d8ff)
+2024-10-30T09:22:20.7375755+07:00  [INF] Executed DbCommand ("6"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];" (0723d8ff)
+2024-10-30T09:22:20.8035619+07:00  [INF] No migrations were applied. The database is already up to date. (503cba9d)
+2024-10-30T09:22:21.4234658+07:00  [INF] Executed DbCommand ("8"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AspNetUsers] AS [a]) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END" (0723d8ff)
+2024-10-30T09:22:21.4534634+07:00  [INF] Executed DbCommand ("5"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AppCustomers] AS [a]) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END" (0723d8ff)
+2024-10-30T09:22:21.8148045+07:00  [INF] Executed DbCommand ("50"ms) [Parameters=["@__identifier_0='?' (Size = 100)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [o].[Id], [o].[ApplicationType], [o].[ClientId], [o].[ClientSecret], [o].[ClientType], [o].[ConcurrencyToken], [o].[ConsentType], [o].[DisplayName], [o].[DisplayNames], [o].[JsonWebKeySet], [o].[Permissions], [o].[PostLogoutRedirectUris], [o].[Properties], [o].[RedirectUris], [o].[Requirements], [o].[Settings]
+FROM [OpenIddictApplications] AS [o]
+WHERE [o].[ClientId] = @__identifier_0" (0723d8ff)
+2024-10-30T09:22:22.0797893+07:00  [INF] Executed DbCommand ("3"ms) [Parameters=["@__identifier_0='?' (Size = 100)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [o].[Id], [o].[ApplicationType], [o].[ClientId], [o].[ClientSecret], [o].[ClientType], [o].[ConcurrencyToken], [o].[ConsentType], [o].[DisplayName], [o].[DisplayNames], [o].[JsonWebKeySet], [o].[Permissions], [o].[PostLogoutRedirectUris], [o].[Properties], [o].[RedirectUris], [o].[Requirements], [o].[Settings]
+FROM [OpenIddictApplications] AS [o]
+WHERE [o].[ClientId] = @__identifier_0" (0723d8ff)
+2024-10-30T09:22:22.3316490+07:00  [INF] Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl (d6ab0d5f)
+2024-10-30T09:22:22.3368537+07:00  [INF] Quartz Scheduler created (389d80b0)
+2024-10-30T09:22:22.3433845+07:00  [INF] JobFactory set to: Quartz.Simpl.MicrosoftDependencyInjectionJobFactory (17471663)
+2024-10-30T09:22:22.3494231+07:00  [INF] RAMJobStore initialized. (8c5a21db)
+2024-10-30T09:22:22.3556671+07:00  [INF] Quartz Scheduler 3.8.1.0 - 'QuartzScheduler' with instanceId 'NON_CLUSTERED' initialized (80014aa8)
+2024-10-30T09:22:22.3613157+07:00  [INF] Using thread pool 'Quartz.Simpl.DefaultThreadPool', size: 10 (7942d54d)
+2024-10-30T09:22:22.3668074+07:00  [INF] Using job store 'Quartz.Simpl.RAMJobStore', supports persistence: False, clustered: False (46d3fae1)
+2024-10-30T09:22:22.7929206+07:00  [WRN] The WebRootPath was not found: "C:\Users\kuro1\source\repos\Quick Application3\Quick Application3\Quick_Application3.Server\wwwroot". Static files may be unavailable. (3ae2c740)
+2024-10-30T09:22:23.0110282+07:00  [INF] Now listening on: "https://localhost:7085" (d826f4b8)
+2024-10-30T09:22:23.0165863+07:00  [INF] Now listening on: "http://localhost:5225" (d826f4b8)
+2024-10-30T09:22:23.0231738+07:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2024-10-30T09:22:23.0293907+07:00  [INF] Hosting environment: "Development" (bc5a1a4e)
+2024-10-30T09:22:23.0347470+07:00  [INF] Content root path: "C:\Users\kuro1\source\repos\Quick Application3\Quick Application3\Quick_Application3.Server" (cc26f24e)
+2024-10-30T09:22:23.0483917+07:00  [INF] Scheduler QuartzScheduler_$_NON_CLUSTERED started. (51b2cfb9)
+2024-10-30T09:23:37.2950147+07:00 0HN7OH6O7MO9F:00000001 [INF] Executed DbCommand ("7"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [a].[Id], [a].[BuyingPrice], [a].[CreatedBy], [a].[CreatedDate], [a].[Description], [a].[Icon], [a].[IsActive], [a].[IsDiscontinued], [a].[Name], [a].[ParentId], [a].[ProductCategoryId], [a].[SellingPrice], [a].[UnitsInStock], [a].[UpdatedBy], [a].[UpdatedDate]
+FROM [AppProducts] AS [a]" (0723d8ff)
+2024-10-30T09:23:44.8167634+07:00 0HN7OH6O7MO9G:00000001 [INF] Executed DbCommand ("5"ms) [Parameters=["@__p_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [a].[Id], [a].[BuyingPrice], [a].[CreatedBy], [a].[CreatedDate], [a].[Description], [a].[Icon], [a].[IsActive], [a].[IsDiscontinued], [a].[Name], [a].[ParentId], [a].[ProductCategoryId], [a].[SellingPrice], [a].[UnitsInStock], [a].[UpdatedBy], [a].[UpdatedDate]
+FROM [AppProducts] AS [a]
+WHERE [a].[Id] = @__p_0" (0723d8ff)
+2024-10-30T09:23:54.9664076+07:00 0HN7OH6O7MO9H:00000001 [INF] Executed DbCommand ("3"ms) [Parameters=["@__p_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [a].[Id], [a].[BuyingPrice], [a].[CreatedBy], [a].[CreatedDate], [a].[Description], [a].[Icon], [a].[IsActive], [a].[IsDiscontinued], [a].[Name], [a].[ParentId], [a].[ProductCategoryId], [a].[SellingPrice], [a].[UnitsInStock], [a].[UpdatedBy], [a].[UpdatedDate]
+FROM [AppProducts] AS [a]
+WHERE [a].[Id] = @__p_0" (0723d8ff)
+2024-10-30T09:23:57.6413229+07:00 0HN7OH6O7MO9I:00000001 [INF] Executed DbCommand ("2"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [a].[Id], [a].[BuyingPrice], [a].[CreatedBy], [a].[CreatedDate], [a].[Description], [a].[Icon], [a].[IsActive], [a].[IsDiscontinued], [a].[Name], [a].[ParentId], [a].[ProductCategoryId], [a].[SellingPrice], [a].[UnitsInStock], [a].[UpdatedBy], [a].[UpdatedDate]
+FROM [AppProducts] AS [a]" (0723d8ff)
+2024-10-30T09:24:21.3159379+07:00 0HN7OH6O7MO9J:00000001 [INF] Executed DbCommand ("4"ms) [Parameters=["@__p_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [a].[Id], [a].[BuyingPrice], [a].[CreatedBy], [a].[CreatedDate], [a].[Description], [a].[Icon], [a].[IsActive], [a].[IsDiscontinued], [a].[Name], [a].[ParentId], [a].[ProductCategoryId], [a].[SellingPrice], [a].[UnitsInStock], [a].[UpdatedBy], [a].[UpdatedDate]
+FROM [AppProducts] AS [a]
+WHERE [a].[Id] = @__p_0" (0723d8ff)
+2024-10-30T09:24:25.8100711+07:00 0HN7OH6O7MO9K:00000001 [INF] Executed DbCommand ("4"ms) [Parameters=["@__p_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [a].[Id], [a].[BuyingPrice], [a].[CreatedBy], [a].[CreatedDate], [a].[Description], [a].[Icon], [a].[IsActive], [a].[IsDiscontinued], [a].[Name], [a].[ParentId], [a].[ProductCategoryId], [a].[SellingPrice], [a].[UnitsInStock], [a].[UpdatedBy], [a].[UpdatedDate]
+FROM [AppProducts] AS [a]
+WHERE [a].[Id] = @__p_0" (0723d8ff)
+2024-10-30T09:57:01.7391943+07:00  [WRN] The WebRootPath was not found: "C:\Users\kuro1\source\repos\Quick Application3\Quick Application3\Quick_Application3.Server\wwwroot". Static files may be unavailable. (3ae2c740)
+2024-10-30T09:57:04.0234362+07:00  [INF] Executed DbCommand ("29"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT 1" (0723d8ff)
+2024-10-30T09:57:04.0776962+07:00  [INF] Executed DbCommand ("32"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT OBJECT_ID(N'[__EFMigrationsHistory]');" (0723d8ff)
+2024-10-30T09:57:04.0923997+07:00  [INF] Executed DbCommand ("7"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT 1" (0723d8ff)
+2024-10-30T09:57:04.0967252+07:00  [INF] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT OBJECT_ID(N'[__EFMigrationsHistory]');" (0723d8ff)
+2024-10-30T09:57:04.1277093+07:00  [INF] Executed DbCommand ("3"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];" (0723d8ff)
+2024-10-30T09:57:04.1598746+07:00  [INF] No migrations were applied. The database is already up to date. (503cba9d)
+2024-10-30T09:57:04.5288384+07:00  [INF] Executed DbCommand ("4"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AspNetUsers] AS [a]) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END" (0723d8ff)
+2024-10-30T09:57:04.5442090+07:00  [INF] Executed DbCommand ("2"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AppCustomers] AS [a]) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END" (0723d8ff)
+2024-10-30T09:57:04.7045223+07:00  [INF] Executed DbCommand ("25"ms) [Parameters=["@__identifier_0='?' (Size = 100)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [o].[Id], [o].[ApplicationType], [o].[ClientId], [o].[ClientSecret], [o].[ClientType], [o].[ConcurrencyToken], [o].[ConsentType], [o].[DisplayName], [o].[DisplayNames], [o].[JsonWebKeySet], [o].[Permissions], [o].[PostLogoutRedirectUris], [o].[Properties], [o].[RedirectUris], [o].[Requirements], [o].[Settings]
+FROM [OpenIddictApplications] AS [o]
+WHERE [o].[ClientId] = @__identifier_0" (0723d8ff)
+2024-10-30T09:57:04.8168341+07:00  [INF] Executed DbCommand ("1"ms) [Parameters=["@__identifier_0='?' (Size = 100)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [o].[Id], [o].[ApplicationType], [o].[ClientId], [o].[ClientSecret], [o].[ClientType], [o].[ConcurrencyToken], [o].[ConsentType], [o].[DisplayName], [o].[DisplayNames], [o].[JsonWebKeySet], [o].[Permissions], [o].[PostLogoutRedirectUris], [o].[Properties], [o].[RedirectUris], [o].[Requirements], [o].[Settings]
+FROM [OpenIddictApplications] AS [o]
+WHERE [o].[ClientId] = @__identifier_0" (0723d8ff)
+2024-10-30T09:57:04.9142338+07:00  [INF] Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl (d6ab0d5f)
+2024-10-30T09:57:04.9169270+07:00  [INF] Quartz Scheduler created (389d80b0)
+2024-10-30T09:57:04.9200831+07:00  [INF] JobFactory set to: Quartz.Simpl.MicrosoftDependencyInjectionJobFactory (17471663)
+2024-10-30T09:57:04.9226535+07:00  [INF] RAMJobStore initialized. (8c5a21db)
+2024-10-30T09:57:04.9249337+07:00  [INF] Quartz Scheduler 3.8.1.0 - 'QuartzScheduler' with instanceId 'NON_CLUSTERED' initialized (80014aa8)
+2024-10-30T09:57:04.9274514+07:00  [INF] Using thread pool 'Quartz.Simpl.DefaultThreadPool', size: 10 (7942d54d)
+2024-10-30T09:57:04.9297386+07:00  [INF] Using job store 'Quartz.Simpl.RAMJobStore', supports persistence: False, clustered: False (46d3fae1)
+2024-10-30T09:57:05.0990099+07:00  [WRN] The WebRootPath was not found: "C:\Users\kuro1\source\repos\Quick Application3\Quick Application3\Quick_Application3.Server\wwwroot". Static files may be unavailable. (3ae2c740)
+2024-10-30T09:57:05.1975372+07:00  [INF] Now listening on: "https://localhost:7085" (d826f4b8)
+2024-10-30T09:57:05.2004722+07:00  [INF] Now listening on: "http://localhost:5225" (d826f4b8)
+2024-10-30T09:57:05.2036877+07:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2024-10-30T09:57:05.2061696+07:00  [INF] Hosting environment: "Development" (bc5a1a4e)
+2024-10-30T09:57:05.2083127+07:00  [INF] Content root path: "C:\Users\kuro1\source\repos\Quick Application3\Quick Application3\Quick_Application3.Server" (cc26f24e)
+2024-10-30T09:57:05.2134698+07:00  [INF] Scheduler QuartzScheduler_$_NON_CLUSTERED started. (51b2cfb9)
+2024-10-30T09:59:16.7533146+07:00 0HN7OHQ4M8GAA:00000001 [INF] Executed DbCommand ("4"ms) [Parameters=["@p0='?' (Size = 40), @p1='?' (DbType = DateTime2), @p2='?' (Size = 500), @p3='?' (Size = 4000), @p4='?' (Size = 100), @p5='?' (Size = 40), @p6='?' (DbType = DateTime2)"], CommandType='Text', CommandTimeout='30']"
+""SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [AppProductCategories] ([CreatedBy], [CreatedDate], [Description], [Icon], [Name], [UpdatedBy], [UpdatedDate])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6);" (0723d8ff)
+2024-10-30T09:59:16.7898155+07:00 0HN7OHQ4M8GAA:00000001 [INF] Executed DbCommand ("7"ms) [Parameters=["@p7='?' (Precision = 18) (Scale = 2) (DbType = Decimal), @p8='?' (Size = 40), @p9='?' (DbType = DateTime2), @p10='?' (Size = 500), @p11='?' (Size = 256) (DbType = AnsiString), @p12='?' (DbType = Boolean), @p13='?' (DbType = Boolean), @p14='?' (Size = 100), @p15='?' (DbType = Int32), @p16='?' (DbType = Int32), @p17='?' (Precision = 18) (Scale = 2) (DbType = Decimal), @p18='?' (DbType = Int32), @p19='?' (Size = 40), @p20='?' (DbType = DateTime2)"], CommandType='Text', CommandTimeout='30']"
+""SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [AppProducts] ([BuyingPrice], [CreatedBy], [CreatedDate], [Description], [Icon], [IsActive], [IsDiscontinued], [Name], [ParentId], [ProductCategoryId], [SellingPrice], [UnitsInStock], [UpdatedBy], [UpdatedDate])
+OUTPUT INSERTED.[Id]
+VALUES (@p7, @p8, @p9, @p10, @p11, @p12, @p13, @p14, @p15, @p16, @p17, @p18, @p19, @p20);" (0723d8ff)
+2024-10-30T09:59:32.5879386+07:00 0HN7OHQ4M8GAB:00000001 [INF] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [a].[Id], [a].[BuyingPrice], [a].[CreatedBy], [a].[CreatedDate], [a].[Description], [a].[Icon], [a].[IsActive], [a].[IsDiscontinued], [a].[Name], [a].[ParentId], [a].[ProductCategoryId], [a].[SellingPrice], [a].[UnitsInStock], [a].[UpdatedBy], [a].[UpdatedDate]
+FROM [AppProducts] AS [a]" (0723d8ff)
+2024-10-30T10:01:05.1653646+07:00  [INF] Executed DbCommand ("12"ms) [Parameters=["@__p_1='?' (DbType = Int32), @__date_0='?' (DbType = DateTime2)"], CommandType='Text', CommandTimeout='30']"
+""DELETE FROM [o]
+FROM [OpenIddictTokens] AS [o]
+WHERE [o].[Id] IN (
+    SELECT TOP(@__p_1) [o0].[Id]
+    FROM [OpenIddictTokens] AS [o0]
+    LEFT JOIN [OpenIddictAuthorizations] AS [o1] ON [o0].[AuthorizationId] = [o1].[Id]
+    WHERE [o0].[CreationDate] < @__date_0 AND ((([o0].[Status] <> N'inactive' OR [o0].[Status] IS NULL) AND ([o0].[Status] <> N'valid' OR [o0].[Status] IS NULL)) OR ([o1].[Id] IS NOT NULL AND ([o1].[Status] <> N'valid' OR [o1].[Status] IS NULL)) OR [o0].[ExpirationDate] < GETUTCDATE())
+    ORDER BY [o0].[Id]
+)" (0723d8ff)
+2024-10-30T10:01:05.1956188+07:00  [INF] Executed DbCommand ("9"ms) [Parameters=["@__p_1='?' (DbType = Int32), @__date_0='?' (DbType = DateTime2)"], CommandType='Text', CommandTimeout='30']"
+""DELETE FROM [o]
+FROM [OpenIddictAuthorizations] AS [o]
+WHERE [o].[Id] IN (
+    SELECT TOP(@__p_1) [o0].[Id]
+    FROM [OpenIddictAuthorizations] AS [o0]
+    WHERE [o0].[CreationDate] < @__date_0 AND ([o0].[Status] <> N'valid' OR [o0].[Status] IS NULL OR ([o0].[Type] = N'ad-hoc' AND NOT EXISTS (
+        SELECT 1
+        FROM [OpenIddictTokens] AS [o1]
+        WHERE [o0].[Id] = [o1].[AuthorizationId])))
+    ORDER BY [o0].[Id]
+)" (0723d8ff)
+2024-10-30T10:14:30.2528698+07:00  [WRN] The WebRootPath was not found: "C:\Users\kuro1\source\repos\Quick Application3\Quick Application3\Quick_Application3.Server\wwwroot". Static files may be unavailable. (3ae2c740)
+2024-10-30T10:14:32.5671836+07:00  [INF] Executed DbCommand ("30"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT 1" (0723d8ff)
+2024-10-30T10:14:32.6143306+07:00  [INF] Executed DbCommand ("27"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT OBJECT_ID(N'[__EFMigrationsHistory]');" (0723d8ff)
+2024-10-30T10:14:32.6202853+07:00  [INF] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT 1" (0723d8ff)
+2024-10-30T10:14:32.6237499+07:00  [INF] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT OBJECT_ID(N'[__EFMigrationsHistory]');" (0723d8ff)
+2024-10-30T10:14:32.6419517+07:00  [INF] Executed DbCommand ("3"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];" (0723d8ff)
+2024-10-30T10:14:32.6684157+07:00  [INF] No migrations were applied. The database is already up to date. (503cba9d)
+2024-10-30T10:14:32.9013380+07:00  [INF] Executed DbCommand ("3"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AspNetUsers] AS [a]) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END" (0723d8ff)
+2024-10-30T10:14:32.9190379+07:00  [INF] Executed DbCommand ("2"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AppCustomers] AS [a]) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END" (0723d8ff)
+2024-10-30T10:14:33.0742524+07:00  [INF] Executed DbCommand ("27"ms) [Parameters=["@__identifier_0='?' (Size = 100)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [o].[Id], [o].[ApplicationType], [o].[ClientId], [o].[ClientSecret], [o].[ClientType], [o].[ConcurrencyToken], [o].[ConsentType], [o].[DisplayName], [o].[DisplayNames], [o].[JsonWebKeySet], [o].[Permissions], [o].[PostLogoutRedirectUris], [o].[Properties], [o].[RedirectUris], [o].[Requirements], [o].[Settings]
+FROM [OpenIddictApplications] AS [o]
+WHERE [o].[ClientId] = @__identifier_0" (0723d8ff)
+2024-10-30T10:14:33.2036960+07:00  [INF] Executed DbCommand ("1"ms) [Parameters=["@__identifier_0='?' (Size = 100)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [o].[Id], [o].[ApplicationType], [o].[ClientId], [o].[ClientSecret], [o].[ClientType], [o].[ConcurrencyToken], [o].[ConsentType], [o].[DisplayName], [o].[DisplayNames], [o].[JsonWebKeySet], [o].[Permissions], [o].[PostLogoutRedirectUris], [o].[Properties], [o].[RedirectUris], [o].[Requirements], [o].[Settings]
+FROM [OpenIddictApplications] AS [o]
+WHERE [o].[ClientId] = @__identifier_0" (0723d8ff)
+2024-10-30T10:14:33.3113194+07:00  [INF] Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl (d6ab0d5f)
+2024-10-30T10:14:33.3136711+07:00  [INF] Quartz Scheduler created (389d80b0)
+2024-10-30T10:14:33.3163053+07:00  [INF] JobFactory set to: Quartz.Simpl.MicrosoftDependencyInjectionJobFactory (17471663)
+2024-10-30T10:14:33.3189415+07:00  [INF] RAMJobStore initialized. (8c5a21db)
+2024-10-30T10:14:33.3220149+07:00  [INF] Quartz Scheduler 3.8.1.0 - 'QuartzScheduler' with instanceId 'NON_CLUSTERED' initialized (80014aa8)
+2024-10-30T10:14:33.3243756+07:00  [INF] Using thread pool 'Quartz.Simpl.DefaultThreadPool', size: 10 (7942d54d)
+2024-10-30T10:14:33.3272555+07:00  [INF] Using job store 'Quartz.Simpl.RAMJobStore', supports persistence: False, clustered: False (46d3fae1)
+2024-10-30T10:14:33.5345194+07:00  [WRN] The WebRootPath was not found: "C:\Users\kuro1\source\repos\Quick Application3\Quick Application3\Quick_Application3.Server\wwwroot". Static files may be unavailable. (3ae2c740)
+2024-10-30T10:14:33.6329597+07:00  [INF] Now listening on: "https://localhost:7085" (d826f4b8)
+2024-10-30T10:14:33.6348297+07:00  [INF] Now listening on: "http://localhost:5225" (d826f4b8)
+2024-10-30T10:14:33.6377477+07:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2024-10-30T10:14:33.6404236+07:00  [INF] Hosting environment: "Development" (bc5a1a4e)
+2024-10-30T10:14:33.6426587+07:00  [INF] Content root path: "C:\Users\kuro1\source\repos\Quick Application3\Quick Application3\Quick_Application3.Server" (cc26f24e)
+2024-10-30T10:14:33.6482072+07:00  [INF] Scheduler QuartzScheduler_$_NON_CLUSTERED started. (51b2cfb9)
+2024-10-30T10:15:06.5390902+07:00 0HN7OI3T6S82G:00000001 [INF] Executed DbCommand ("3"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [a].[Id], [a].[BuyingPrice], [a].[CreatedBy], [a].[CreatedDate], [a].[Description], [a].[Icon], [a].[IsActive], [a].[IsDiscontinued], [a].[Name], [a].[ParentId], [a].[ProductCategoryId], [a].[SellingPrice], [a].[UnitsInStock], [a].[UpdatedBy], [a].[UpdatedDate]
+FROM [AppProducts] AS [a]" (0723d8ff)
+2024-10-30T10:15:48.1854390+07:00 0HN7OI3T6S82H:00000001 [INF] Executed DbCommand ("6"ms) [Parameters=["@p0='?' (Size = 40), @p1='?' (DbType = DateTime2), @p2='?' (Size = 500), @p3='?' (Size = 4000), @p4='?' (Size = 100), @p5='?' (Size = 40), @p6='?' (DbType = DateTime2)"], CommandType='Text', CommandTimeout='30']"
+""SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [AppProductCategories] ([CreatedBy], [CreatedDate], [Description], [Icon], [Name], [UpdatedBy], [UpdatedDate])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6);" (0723d8ff)
+2024-10-30T10:15:48.2148660+07:00 0HN7OI3T6S82H:00000001 [INF] Executed DbCommand ("7"ms) [Parameters=["@p7='?' (Precision = 18) (Scale = 2) (DbType = Decimal), @p8='?' (Size = 40), @p9='?' (DbType = DateTime2), @p10='?' (Size = 500), @p11='?' (Size = 256) (DbType = AnsiString), @p12='?' (DbType = Boolean), @p13='?' (DbType = Boolean), @p14='?' (Size = 100), @p15='?' (DbType = Int32), @p16='?' (DbType = Int32), @p17='?' (Precision = 18) (Scale = 2) (DbType = Decimal), @p18='?' (DbType = Int32), @p19='?' (Size = 40), @p20='?' (DbType = DateTime2)"], CommandType='Text', CommandTimeout='30']"
+""SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [AppProducts] ([BuyingPrice], [CreatedBy], [CreatedDate], [Description], [Icon], [IsActive], [IsDiscontinued], [Name], [ParentId], [ProductCategoryId], [SellingPrice], [UnitsInStock], [UpdatedBy], [UpdatedDate])
+OUTPUT INSERTED.[Id]
+VALUES (@p7, @p8, @p9, @p10, @p11, @p12, @p13, @p14, @p15, @p16, @p17, @p18, @p19, @p20);" (0723d8ff)
+2024-10-30T10:15:56.9049630+07:00 0HN7OI3T6S82I:00000001 [INF] Executed DbCommand ("3"ms) [Parameters=["@__p_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [a].[Id], [a].[BuyingPrice], [a].[CreatedBy], [a].[CreatedDate], [a].[Description], [a].[Icon], [a].[IsActive], [a].[IsDiscontinued], [a].[Name], [a].[ParentId], [a].[ProductCategoryId], [a].[SellingPrice], [a].[UnitsInStock], [a].[UpdatedBy], [a].[UpdatedDate]
+FROM [AppProducts] AS [a]
+WHERE [a].[Id] = @__p_0" (0723d8ff)
+2024-10-30T10:16:11.4079316+07:00 0HN7OI3T6S82J:00000001 [INF] Executed DbCommand ("4"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [a].[Id], [a].[BuyingPrice], [a].[CreatedBy], [a].[CreatedDate], [a].[Description], [a].[Icon], [a].[IsActive], [a].[IsDiscontinued], [a].[Name], [a].[ParentId], [a].[ProductCategoryId], [a].[SellingPrice], [a].[UnitsInStock], [a].[UpdatedBy], [a].[UpdatedDate]
+FROM [AppProducts] AS [a]" (0723d8ff)
+2024-10-30T10:24:55.4997227+07:00  [WRN] The WebRootPath was not found: "C:\Users\kuro1\source\repos\Quick Application3\Quick Application3\Quick_Application3.Server\wwwroot". Static files may be unavailable. (3ae2c740)
+2024-10-30T10:24:57.8407445+07:00  [INF] Executed DbCommand ("36"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT 1" (0723d8ff)
+2024-10-30T10:24:57.8858874+07:00  [INF] Executed DbCommand ("23"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT OBJECT_ID(N'[__EFMigrationsHistory]');" (0723d8ff)
+2024-10-30T10:24:57.8949283+07:00  [INF] Executed DbCommand ("5"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT 1" (0723d8ff)
+2024-10-30T10:24:57.8979382+07:00  [INF] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT OBJECT_ID(N'[__EFMigrationsHistory]');" (0723d8ff)
+2024-10-30T10:24:57.9166715+07:00  [INF] Executed DbCommand ("3"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];" (0723d8ff)
+2024-10-30T10:24:57.9406206+07:00  [INF] No migrations were applied. The database is already up to date. (503cba9d)
+2024-10-30T10:24:58.1599879+07:00  [INF] Executed DbCommand ("3"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AspNetUsers] AS [a]) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END" (0723d8ff)
+2024-10-30T10:24:58.1727057+07:00  [INF] Executed DbCommand ("2"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AppCustomers] AS [a]) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END" (0723d8ff)
+2024-10-30T10:24:58.2975915+07:00  [INF] Executed DbCommand ("21"ms) [Parameters=["@__identifier_0='?' (Size = 100)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [o].[Id], [o].[ApplicationType], [o].[ClientId], [o].[ClientSecret], [o].[ClientType], [o].[ConcurrencyToken], [o].[ConsentType], [o].[DisplayName], [o].[DisplayNames], [o].[JsonWebKeySet], [o].[Permissions], [o].[PostLogoutRedirectUris], [o].[Properties], [o].[RedirectUris], [o].[Requirements], [o].[Settings]
+FROM [OpenIddictApplications] AS [o]
+WHERE [o].[ClientId] = @__identifier_0" (0723d8ff)
+2024-10-30T10:24:58.3902520+07:00  [INF] Executed DbCommand ("1"ms) [Parameters=["@__identifier_0='?' (Size = 100)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [o].[Id], [o].[ApplicationType], [o].[ClientId], [o].[ClientSecret], [o].[ClientType], [o].[ConcurrencyToken], [o].[ConsentType], [o].[DisplayName], [o].[DisplayNames], [o].[JsonWebKeySet], [o].[Permissions], [o].[PostLogoutRedirectUris], [o].[Properties], [o].[RedirectUris], [o].[Requirements], [o].[Settings]
+FROM [OpenIddictApplications] AS [o]
+WHERE [o].[ClientId] = @__identifier_0" (0723d8ff)
+2024-10-30T10:24:58.4863608+07:00  [INF] Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl (d6ab0d5f)
+2024-10-30T10:24:58.4894809+07:00  [INF] Quartz Scheduler created (389d80b0)
+2024-10-30T10:24:58.4920040+07:00  [INF] JobFactory set to: Quartz.Simpl.MicrosoftDependencyInjectionJobFactory (17471663)
+2024-10-30T10:24:58.4942194+07:00  [INF] RAMJobStore initialized. (8c5a21db)
+2024-10-30T10:24:58.4968643+07:00  [INF] Quartz Scheduler 3.8.1.0 - 'QuartzScheduler' with instanceId 'NON_CLUSTERED' initialized (80014aa8)
+2024-10-30T10:24:58.4999475+07:00  [INF] Using thread pool 'Quartz.Simpl.DefaultThreadPool', size: 10 (7942d54d)
+2024-10-30T10:24:58.5023067+07:00  [INF] Using job store 'Quartz.Simpl.RAMJobStore', supports persistence: False, clustered: False (46d3fae1)
+2024-10-30T10:24:58.6916584+07:00  [WRN] The WebRootPath was not found: "C:\Users\kuro1\source\repos\Quick Application3\Quick Application3\Quick_Application3.Server\wwwroot". Static files may be unavailable. (3ae2c740)
+2024-10-30T10:24:58.7845598+07:00  [INF] Now listening on: "https://localhost:7085" (d826f4b8)
+2024-10-30T10:24:58.7870569+07:00  [INF] Now listening on: "http://localhost:5225" (d826f4b8)
+2024-10-30T10:24:58.7900255+07:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2024-10-30T10:24:58.7928103+07:00  [INF] Hosting environment: "Development" (bc5a1a4e)
+2024-10-30T10:24:58.7945006+07:00  [INF] Content root path: "C:\Users\kuro1\source\repos\Quick Application3\Quick Application3\Quick_Application3.Server" (cc26f24e)
+2024-10-30T10:24:58.8000814+07:00  [INF] Scheduler QuartzScheduler_$_NON_CLUSTERED started. (51b2cfb9)
+2024-10-30T10:25:28.4534190+07:00 0HN7OI9ND7IUO:00000001 [INF] Executed DbCommand ("4"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [a].[Id], [a].[BuyingPrice], [a].[CreatedBy], [a].[CreatedDate], [a].[Description], [a].[Icon], [a].[IsActive], [a].[IsDiscontinued], [a].[Name], [a].[ParentId], [a].[ProductCategoryId], [a].[SellingPrice], [a].[UnitsInStock], [a].[UpdatedBy], [a].[UpdatedDate]
+FROM [AppProducts] AS [a]" (0723d8ff)
+2024-10-30T10:25:45.0642159+07:00 0HN7OI9ND7IUP:00000001 [INF] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [a].[Id], [a].[BuyingPrice], [a].[CreatedBy], [a].[CreatedDate], [a].[Description], [a].[Icon], [a].[IsActive], [a].[IsDiscontinued], [a].[Name], [a].[ParentId], [a].[ProductCategoryId], [a].[SellingPrice], [a].[UnitsInStock], [a].[UpdatedBy], [a].[UpdatedDate]
+FROM [AppProducts] AS [a]" (0723d8ff)
+2024-10-30T10:26:10.2705566+07:00 0HN7OI9ND7IUQ:00000001 [INF] Executed DbCommand ("3"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [a].[Id], [a].[BuyingPrice], [a].[CreatedBy], [a].[CreatedDate], [a].[Description], [a].[Icon], [a].[IsActive], [a].[IsDiscontinued], [a].[Name], [a].[ParentId], [a].[ProductCategoryId], [a].[SellingPrice], [a].[UnitsInStock], [a].[UpdatedBy], [a].[UpdatedDate]
+FROM [AppProducts] AS [a]" (0723d8ff)
+2024-10-30T10:27:15.3230149+07:00 0HN7OI9ND7IUR:00000001 [INF] Executed DbCommand ("3"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [a].[Id], [a].[BuyingPrice], [a].[CreatedBy], [a].[CreatedDate], [a].[Description], [a].[Icon], [a].[IsActive], [a].[IsDiscontinued], [a].[Name], [a].[ParentId], [a].[ProductCategoryId], [a].[SellingPrice], [a].[UnitsInStock], [a].[UpdatedBy], [a].[UpdatedDate]
+FROM [AppProducts] AS [a]" (0723d8ff)
+2024-10-30T10:27:34.9624462+07:00 0HN7OI9ND7IUS:00000001 [INF] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [a].[Id], [a].[BuyingPrice], [a].[CreatedBy], [a].[CreatedDate], [a].[Description], [a].[Icon], [a].[IsActive], [a].[IsDiscontinued], [a].[Name], [a].[ParentId], [a].[ProductCategoryId], [a].[SellingPrice], [a].[UnitsInStock], [a].[UpdatedBy], [a].[UpdatedDate]
+FROM [AppProducts] AS [a]" (0723d8ff)
+2024-10-30T10:27:44.3031433+07:00 0HN7OI9ND7IUT:00000001 [INF] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [a].[Id], [a].[BuyingPrice], [a].[CreatedBy], [a].[CreatedDate], [a].[Description], [a].[Icon], [a].[IsActive], [a].[IsDiscontinued], [a].[Name], [a].[ParentId], [a].[ProductCategoryId], [a].[SellingPrice], [a].[UnitsInStock], [a].[UpdatedBy], [a].[UpdatedDate]
+FROM [AppProducts] AS [a]" (0723d8ff)
+2024-10-30T10:28:58.7071646+07:00 0HN7OI9ND7IUU:00000001 [INF] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [a].[Id], [a].[BuyingPrice], [a].[CreatedBy], [a].[CreatedDate], [a].[Description], [a].[Icon], [a].[IsActive], [a].[IsDiscontinued], [a].[Name], [a].[ParentId], [a].[ProductCategoryId], [a].[SellingPrice], [a].[UnitsInStock], [a].[UpdatedBy], [a].[UpdatedDate]
+FROM [AppProducts] AS [a]" (0723d8ff)
+2024-10-30T10:29:05.6670069+07:00 0HN7OI9ND7IUV:00000001 [INF] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [a].[Id], [a].[BuyingPrice], [a].[CreatedBy], [a].[CreatedDate], [a].[Description], [a].[Icon], [a].[IsActive], [a].[IsDiscontinued], [a].[Name], [a].[ParentId], [a].[ProductCategoryId], [a].[SellingPrice], [a].[UnitsInStock], [a].[UpdatedBy], [a].[UpdatedDate]
+FROM [AppProducts] AS [a]" (0723d8ff)
+2024-10-30T10:33:01.1151709+07:00  [WRN] The WebRootPath was not found: "C:\Users\kuro1\source\repos\Quick Application3\Quick Application3\Quick_Application3.Server\wwwroot". Static files may be unavailable. (3ae2c740)
+2024-10-30T10:33:02.4577565+07:00  [INF] Executed DbCommand ("30"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT 1" (0723d8ff)
+2024-10-30T10:33:02.5029730+07:00  [INF] Executed DbCommand ("28"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT OBJECT_ID(N'[__EFMigrationsHistory]');" (0723d8ff)
+2024-10-30T10:33:02.5085799+07:00  [INF] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT 1" (0723d8ff)
+2024-10-30T10:33:02.5115028+07:00  [INF] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT OBJECT_ID(N'[__EFMigrationsHistory]');" (0723d8ff)
+2024-10-30T10:33:02.5291235+07:00  [INF] Executed DbCommand ("3"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];" (0723d8ff)
+2024-10-30T10:33:02.5517970+07:00  [INF] No migrations were applied. The database is already up to date. (503cba9d)
+2024-10-30T10:33:02.7623654+07:00  [INF] Executed DbCommand ("5"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AspNetUsers] AS [a]) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END" (0723d8ff)
+2024-10-30T10:33:02.7746021+07:00  [INF] Executed DbCommand ("2"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AppCustomers] AS [a]) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END" (0723d8ff)
+2024-10-30T10:33:02.9019805+07:00  [INF] Executed DbCommand ("21"ms) [Parameters=["@__identifier_0='?' (Size = 100)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [o].[Id], [o].[ApplicationType], [o].[ClientId], [o].[ClientSecret], [o].[ClientType], [o].[ConcurrencyToken], [o].[ConsentType], [o].[DisplayName], [o].[DisplayNames], [o].[JsonWebKeySet], [o].[Permissions], [o].[PostLogoutRedirectUris], [o].[Properties], [o].[RedirectUris], [o].[Requirements], [o].[Settings]
+FROM [OpenIddictApplications] AS [o]
+WHERE [o].[ClientId] = @__identifier_0" (0723d8ff)
+2024-10-30T10:33:02.9967427+07:00  [INF] Executed DbCommand ("1"ms) [Parameters=["@__identifier_0='?' (Size = 100)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [o].[Id], [o].[ApplicationType], [o].[ClientId], [o].[ClientSecret], [o].[ClientType], [o].[ConcurrencyToken], [o].[ConsentType], [o].[DisplayName], [o].[DisplayNames], [o].[JsonWebKeySet], [o].[Permissions], [o].[PostLogoutRedirectUris], [o].[Properties], [o].[RedirectUris], [o].[Requirements], [o].[Settings]
+FROM [OpenIddictApplications] AS [o]
+WHERE [o].[ClientId] = @__identifier_0" (0723d8ff)
+2024-10-30T10:33:03.0959980+07:00  [INF] Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl (d6ab0d5f)
+2024-10-30T10:33:03.0989716+07:00  [INF] Quartz Scheduler created (389d80b0)
+2024-10-30T10:33:03.1011645+07:00  [INF] JobFactory set to: Quartz.Simpl.MicrosoftDependencyInjectionJobFactory (17471663)
+2024-10-30T10:33:03.1030354+07:00  [INF] RAMJobStore initialized. (8c5a21db)
+2024-10-30T10:33:03.1049504+07:00  [INF] Quartz Scheduler 3.8.1.0 - 'QuartzScheduler' with instanceId 'NON_CLUSTERED' initialized (80014aa8)
+2024-10-30T10:33:03.1067076+07:00  [INF] Using thread pool 'Quartz.Simpl.DefaultThreadPool', size: 10 (7942d54d)
+2024-10-30T10:33:03.1086860+07:00  [INF] Using job store 'Quartz.Simpl.RAMJobStore', supports persistence: False, clustered: False (46d3fae1)
+2024-10-30T10:33:03.2895433+07:00  [WRN] The WebRootPath was not found: "C:\Users\kuro1\source\repos\Quick Application3\Quick Application3\Quick_Application3.Server\wwwroot". Static files may be unavailable. (3ae2c740)
+2024-10-30T10:33:03.3859733+07:00  [INF] Now listening on: "https://localhost:7085" (d826f4b8)
+2024-10-30T10:33:03.3885123+07:00  [INF] Now listening on: "http://localhost:5225" (d826f4b8)
+2024-10-30T10:33:03.3910726+07:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2024-10-30T10:33:03.3937667+07:00  [INF] Hosting environment: "Development" (bc5a1a4e)
+2024-10-30T10:33:03.3959732+07:00  [INF] Content root path: "C:\Users\kuro1\source\repos\Quick Application3\Quick Application3\Quick_Application3.Server" (cc26f24e)
+2024-10-30T10:33:03.4009494+07:00  [INF] Scheduler QuartzScheduler_$_NON_CLUSTERED started. (51b2cfb9)
+2024-10-30T10:36:03.3963162+07:00  [INF] Executed DbCommand ("15"ms) [Parameters=["@__p_1='?' (DbType = Int32), @__date_0='?' (DbType = DateTime2)"], CommandType='Text', CommandTimeout='30']"
+""DELETE FROM [o]
+FROM [OpenIddictTokens] AS [o]
+WHERE [o].[Id] IN (
+    SELECT TOP(@__p_1) [o0].[Id]
+    FROM [OpenIddictTokens] AS [o0]
+    LEFT JOIN [OpenIddictAuthorizations] AS [o1] ON [o0].[AuthorizationId] = [o1].[Id]
+    WHERE [o0].[CreationDate] < @__date_0 AND ((([o0].[Status] <> N'inactive' OR [o0].[Status] IS NULL) AND ([o0].[Status] <> N'valid' OR [o0].[Status] IS NULL)) OR ([o1].[Id] IS NOT NULL AND ([o1].[Status] <> N'valid' OR [o1].[Status] IS NULL)) OR [o0].[ExpirationDate] < GETUTCDATE())
+    ORDER BY [o0].[Id]
+)" (0723d8ff)
+2024-10-30T10:36:03.4260225+07:00  [INF] Executed DbCommand ("8"ms) [Parameters=["@__p_1='?' (DbType = Int32), @__date_0='?' (DbType = DateTime2)"], CommandType='Text', CommandTimeout='30']"
+""DELETE FROM [o]
+FROM [OpenIddictAuthorizations] AS [o]
+WHERE [o].[Id] IN (
+    SELECT TOP(@__p_1) [o0].[Id]
+    FROM [OpenIddictAuthorizations] AS [o0]
+    WHERE [o0].[CreationDate] < @__date_0 AND ([o0].[Status] <> N'valid' OR [o0].[Status] IS NULL OR ([o0].[Type] = N'ad-hoc' AND NOT EXISTS (
+        SELECT 1
+        FROM [OpenIddictTokens] AS [o1]
+        WHERE [o0].[Id] = [o1].[AuthorizationId])))
+    ORDER BY [o0].[Id]
+)" (0723d8ff)
+2024-10-30T10:45:17.7888665+07:00 0HN7OIE7QQP24:00000001 [INF] Executed DbCommand ("4"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [a].[Id], [a].[BuyingPrice], [a].[CreatedBy], [a].[CreatedDate], [a].[Description], [a].[Icon], [a].[IsActive], [a].[IsDiscontinued], [a].[Name], [a].[ParentId], [a].[ProductCategoryId], [a].[SellingPrice], [a].[UnitsInStock], [a].[UpdatedBy], [a].[UpdatedDate]
+FROM [AppProducts] AS [a]" (0723d8ff)
+2024-10-30T10:56:17.7872106+07:00  [WRN] The WebRootPath was not found: "C:\Users\kuro1\source\repos\Quick Application3\Quick Application3\Quick_Application3.Server\wwwroot". Static files may be unavailable. (3ae2c740)
+2024-10-30T10:56:20.0064267+07:00  [INF] Executed DbCommand ("28"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT 1" (0723d8ff)
+2024-10-30T10:56:20.0524449+07:00  [INF] Executed DbCommand ("28"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT OBJECT_ID(N'[__EFMigrationsHistory]');" (0723d8ff)
+2024-10-30T10:56:20.0578538+07:00  [INF] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT 1" (0723d8ff)
+2024-10-30T10:56:20.0614998+07:00  [INF] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT OBJECT_ID(N'[__EFMigrationsHistory]');" (0723d8ff)
+2024-10-30T10:56:20.0809687+07:00  [INF] Executed DbCommand ("2"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];" (0723d8ff)
+2024-10-30T10:56:20.1038195+07:00  [INF] No migrations were applied. The database is already up to date. (503cba9d)
+2024-10-30T10:56:20.3180329+07:00  [INF] Executed DbCommand ("5"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AspNetUsers] AS [a]) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END" (0723d8ff)
+2024-10-30T10:56:20.3303610+07:00  [INF] Executed DbCommand ("2"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AppCustomers] AS [a]) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END" (0723d8ff)
+2024-10-30T10:56:20.4526850+07:00  [INF] Executed DbCommand ("22"ms) [Parameters=["@__identifier_0='?' (Size = 100)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [o].[Id], [o].[ApplicationType], [o].[ClientId], [o].[ClientSecret], [o].[ClientType], [o].[ConcurrencyToken], [o].[ConsentType], [o].[DisplayName], [o].[DisplayNames], [o].[JsonWebKeySet], [o].[Permissions], [o].[PostLogoutRedirectUris], [o].[Properties], [o].[RedirectUris], [o].[Requirements], [o].[Settings]
+FROM [OpenIddictApplications] AS [o]
+WHERE [o].[ClientId] = @__identifier_0" (0723d8ff)
+2024-10-30T10:56:20.5554439+07:00  [INF] Executed DbCommand ("1"ms) [Parameters=["@__identifier_0='?' (Size = 100)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [o].[Id], [o].[ApplicationType], [o].[ClientId], [o].[ClientSecret], [o].[ClientType], [o].[ConcurrencyToken], [o].[ConsentType], [o].[DisplayName], [o].[DisplayNames], [o].[JsonWebKeySet], [o].[Permissions], [o].[PostLogoutRedirectUris], [o].[Properties], [o].[RedirectUris], [o].[Requirements], [o].[Settings]
+FROM [OpenIddictApplications] AS [o]
+WHERE [o].[ClientId] = @__identifier_0" (0723d8ff)
+2024-10-30T10:56:20.6656427+07:00  [INF] Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl (d6ab0d5f)
+2024-10-30T10:56:20.6686985+07:00  [INF] Quartz Scheduler created (389d80b0)
+2024-10-30T10:56:20.6721230+07:00  [INF] JobFactory set to: Quartz.Simpl.MicrosoftDependencyInjectionJobFactory (17471663)
+2024-10-30T10:56:20.6743584+07:00  [INF] RAMJobStore initialized. (8c5a21db)
+2024-10-30T10:56:20.6778574+07:00  [INF] Quartz Scheduler 3.8.1.0 - 'QuartzScheduler' with instanceId 'NON_CLUSTERED' initialized (80014aa8)
+2024-10-30T10:56:20.6801736+07:00  [INF] Using thread pool 'Quartz.Simpl.DefaultThreadPool', size: 10 (7942d54d)
+2024-10-30T10:56:20.6821773+07:00  [INF] Using job store 'Quartz.Simpl.RAMJobStore', supports persistence: False, clustered: False (46d3fae1)
+2024-10-30T10:56:20.8838889+07:00  [WRN] The WebRootPath was not found: "C:\Users\kuro1\source\repos\Quick Application3\Quick Application3\Quick_Application3.Server\wwwroot". Static files may be unavailable. (3ae2c740)
+2024-10-30T10:56:21.0248698+07:00  [INF] Now listening on: "https://localhost:7085" (d826f4b8)
+2024-10-30T10:56:21.0277201+07:00  [INF] Now listening on: "http://localhost:5225" (d826f4b8)
+2024-10-30T10:56:21.0310489+07:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2024-10-30T10:56:21.0340667+07:00  [INF] Hosting environment: "Development" (bc5a1a4e)
+2024-10-30T10:56:21.0364224+07:00  [INF] Content root path: "C:\Users\kuro1\source\repos\Quick Application3\Quick Application3\Quick_Application3.Server" (cc26f24e)
+2024-10-30T10:56:21.0428170+07:00  [INF] Scheduler QuartzScheduler_$_NON_CLUSTERED started. (51b2cfb9)
+2024-10-30T10:56:52.3636501+07:00 0HN7OIR8C8OUB:00000001 [INF] Executed DbCommand ("4"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [a].[Id], [a].[BuyingPrice], [a].[CreatedBy], [a].[CreatedDate], [a].[Description], [a].[Icon], [a].[IsActive], [a].[IsDiscontinued], [a].[Name], [a].[ParentId], [a].[ProductCategoryId], [a].[SellingPrice], [a].[UnitsInStock], [a].[UpdatedBy], [a].[UpdatedDate]
+FROM [AppProducts] AS [a]" (0723d8ff)
+2024-10-30T11:00:20.8945509+07:00  [INF] Executed DbCommand ("17"ms) [Parameters=["@__p_1='?' (DbType = Int32), @__date_0='?' (DbType = DateTime2)"], CommandType='Text', CommandTimeout='30']"
+""DELETE FROM [o]
+FROM [OpenIddictTokens] AS [o]
+WHERE [o].[Id] IN (
+    SELECT TOP(@__p_1) [o0].[Id]
+    FROM [OpenIddictTokens] AS [o0]
+    LEFT JOIN [OpenIddictAuthorizations] AS [o1] ON [o0].[AuthorizationId] = [o1].[Id]
+    WHERE [o0].[CreationDate] < @__date_0 AND ((([o0].[Status] <> N'inactive' OR [o0].[Status] IS NULL) AND ([o0].[Status] <> N'valid' OR [o0].[Status] IS NULL)) OR ([o1].[Id] IS NOT NULL AND ([o1].[Status] <> N'valid' OR [o1].[Status] IS NULL)) OR [o0].[ExpirationDate] < GETUTCDATE())
+    ORDER BY [o0].[Id]
+)" (0723d8ff)
+2024-10-30T11:00:20.9351857+07:00  [INF] Executed DbCommand ("14"ms) [Parameters=["@__p_1='?' (DbType = Int32), @__date_0='?' (DbType = DateTime2)"], CommandType='Text', CommandTimeout='30']"
+""DELETE FROM [o]
+FROM [OpenIddictAuthorizations] AS [o]
+WHERE [o].[Id] IN (
+    SELECT TOP(@__p_1) [o0].[Id]
+    FROM [OpenIddictAuthorizations] AS [o0]
+    WHERE [o0].[CreationDate] < @__date_0 AND ([o0].[Status] <> N'valid' OR [o0].[Status] IS NULL OR ([o0].[Type] = N'ad-hoc' AND NOT EXISTS (
+        SELECT 1
+        FROM [OpenIddictTokens] AS [o1]
+        WHERE [o0].[Id] = [o1].[AuthorizationId])))
+    ORDER BY [o0].[Id]
+)" (0723d8ff)
+2024-10-30T11:05:17.9016720+07:00 0HN7OIR8C8OUC:00000001 [INF] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [a].[Id], [a].[BuyingPrice], [a].[CreatedBy], [a].[CreatedDate], [a].[Description], [a].[Icon], [a].[IsActive], [a].[IsDiscontinued], [a].[Name], [a].[ParentId], [a].[ProductCategoryId], [a].[SellingPrice], [a].[UnitsInStock], [a].[UpdatedBy], [a].[UpdatedDate]
+FROM [AppProducts] AS [a]" (0723d8ff)
+2024-10-30T11:06:00.2086808+07:00 0HN7OIR8C8OUD:00000001 [INF] Executed DbCommand ("5"ms) [Parameters=["@p0='?' (Size = 40), @p1='?' (DbType = DateTime2), @p2='?' (Size = 500), @p3='?' (Size = 4000), @p4='?' (Size = 100), @p5='?' (Size = 40), @p6='?' (DbType = DateTime2)"], CommandType='Text', CommandTimeout='30']"
+""SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [AppProductCategories] ([CreatedBy], [CreatedDate], [Description], [Icon], [Name], [UpdatedBy], [UpdatedDate])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6);" (0723d8ff)
+2024-10-30T11:06:00.2332603+07:00 0HN7OIR8C8OUD:00000001 [INF] Executed DbCommand ("4"ms) [Parameters=["@p7='?' (Precision = 18) (Scale = 2) (DbType = Decimal), @p8='?' (Size = 40), @p9='?' (DbType = DateTime2), @p10='?' (Size = 500), @p11='?' (Size = 256) (DbType = AnsiString), @p12='?' (DbType = Boolean), @p13='?' (DbType = Boolean), @p14='?' (Size = 100), @p15='?' (DbType = Int32), @p16='?' (DbType = Int32), @p17='?' (Precision = 18) (Scale = 2) (DbType = Decimal), @p18='?' (DbType = Int32), @p19='?' (Size = 40), @p20='?' (DbType = DateTime2)"], CommandType='Text', CommandTimeout='30']"
+""SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [AppProducts] ([BuyingPrice], [CreatedBy], [CreatedDate], [Description], [Icon], [IsActive], [IsDiscontinued], [Name], [ParentId], [ProductCategoryId], [SellingPrice], [UnitsInStock], [UpdatedBy], [UpdatedDate])
+OUTPUT INSERTED.[Id]
+VALUES (@p7, @p8, @p9, @p10, @p11, @p12, @p13, @p14, @p15, @p16, @p17, @p18, @p19, @p20);" (0723d8ff)
+2024-10-30T11:06:05.5255735+07:00 0HN7OIR8C8OUE:00000001 [INF] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [a].[Id], [a].[BuyingPrice], [a].[CreatedBy], [a].[CreatedDate], [a].[Description], [a].[Icon], [a].[IsActive], [a].[IsDiscontinued], [a].[Name], [a].[ParentId], [a].[ProductCategoryId], [a].[SellingPrice], [a].[UnitsInStock], [a].[UpdatedBy], [a].[UpdatedDate]
+FROM [AppProducts] AS [a]" (0723d8ff)
+2024-10-30T11:08:29.8314663+07:00 0HN7OIR8C8OUF:00000001 [INF] Executed DbCommand ("6"ms) [Parameters=["@p0='?' (Size = 40), @p1='?' (DbType = DateTime2), @p2='?' (Size = 500), @p3='?' (Size = 4000), @p4='?' (Size = 100), @p5='?' (Size = 40), @p6='?' (DbType = DateTime2)"], CommandType='Text', CommandTimeout='30']"
+""SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [AppProductCategories] ([CreatedBy], [CreatedDate], [Description], [Icon], [Name], [UpdatedBy], [UpdatedDate])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6);" (0723d8ff)
+2024-10-30T11:08:29.8573402+07:00 0HN7OIR8C8OUF:00000001 [INF] Executed DbCommand ("13"ms) [Parameters=["@p7='?' (Precision = 18) (Scale = 2) (DbType = Decimal), @p8='?' (Size = 40), @p9='?' (DbType = DateTime2), @p10='?' (Size = 500), @p11='?' (Size = 256) (DbType = AnsiString), @p12='?' (DbType = Boolean), @p13='?' (DbType = Boolean), @p14='?' (Size = 100), @p15='?' (DbType = Int32), @p16='?' (DbType = Int32), @p17='?' (Precision = 18) (Scale = 2) (DbType = Decimal), @p18='?' (DbType = Int32), @p19='?' (Size = 40), @p20='?' (DbType = DateTime2)"], CommandType='Text', CommandTimeout='30']"
+""SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [AppProducts] ([BuyingPrice], [CreatedBy], [CreatedDate], [Description], [Icon], [IsActive], [IsDiscontinued], [Name], [ParentId], [ProductCategoryId], [SellingPrice], [UnitsInStock], [UpdatedBy], [UpdatedDate])
+OUTPUT INSERTED.[Id]
+VALUES (@p7, @p8, @p9, @p10, @p11, @p12, @p13, @p14, @p15, @p16, @p17, @p18, @p19, @p20);" (0723d8ff)
+2024-10-30T11:08:32.3992297+07:00 0HN7OIR8C8OUG:00000001 [INF] Executed DbCommand ("2"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [a].[Id], [a].[BuyingPrice], [a].[CreatedBy], [a].[CreatedDate], [a].[Description], [a].[Icon], [a].[IsActive], [a].[IsDiscontinued], [a].[Name], [a].[ParentId], [a].[ProductCategoryId], [a].[SellingPrice], [a].[UnitsInStock], [a].[UpdatedBy], [a].[UpdatedDate]
+FROM [AppProducts] AS [a]" (0723d8ff)
+2024-10-30T11:14:05.8135604+07:00 0HN7OIR8C8OUH:00000001 [INF] Executed DbCommand ("4"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [a].[Id], [a].[BuyingPrice], [a].[CreatedBy], [a].[CreatedDate], [a].[Description], [a].[Icon], [a].[IsActive], [a].[IsDiscontinued], [a].[Name], [a].[ParentId], [a].[ProductCategoryId], [a].[SellingPrice], [a].[UnitsInStock], [a].[UpdatedBy], [a].[UpdatedDate]
+FROM [AppProducts] AS [a]" (0723d8ff)
+2024-10-30T11:14:15.4406884+07:00 0HN7OIR8C8OUI:00000001 [INF] Executed DbCommand ("2"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [a].[Id], [a].[BuyingPrice], [a].[CreatedBy], [a].[CreatedDate], [a].[Description], [a].[Icon], [a].[IsActive], [a].[IsDiscontinued], [a].[Name], [a].[ParentId], [a].[ProductCategoryId], [a].[SellingPrice], [a].[UnitsInStock], [a].[UpdatedBy], [a].[UpdatedDate]
+FROM [AppProducts] AS [a]" (0723d8ff)
+2024-10-30T11:14:51.4287575+07:00 0HN7OIR8C8OUJ:00000001 [INF] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [a].[Id], [a].[BuyingPrice], [a].[CreatedBy], [a].[CreatedDate], [a].[Description], [a].[Icon], [a].[IsActive], [a].[IsDiscontinued], [a].[Name], [a].[ParentId], [a].[ProductCategoryId], [a].[SellingPrice], [a].[UnitsInStock], [a].[UpdatedBy], [a].[UpdatedDate]
+FROM [AppProducts] AS [a]" (0723d8ff)
+2024-10-30T11:14:54.8715358+07:00 0HN7OIR8C8OUK:00000001 [INF] Executed DbCommand ("2"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [a].[Id], [a].[BuyingPrice], [a].[CreatedBy], [a].[CreatedDate], [a].[Description], [a].[Icon], [a].[IsActive], [a].[IsDiscontinued], [a].[Name], [a].[ParentId], [a].[ProductCategoryId], [a].[SellingPrice], [a].[UnitsInStock], [a].[UpdatedBy], [a].[UpdatedDate]
+FROM [AppProducts] AS [a]" (0723d8ff)
+2024-10-30T11:15:15.5503407+07:00 0HN7OIR8C8OUL:00000001 [INF] Executed DbCommand ("10"ms) [Parameters=["@p0='?' (Size = 40), @p1='?' (DbType = DateTime2), @p2='?' (Size = 500), @p3='?' (Size = 4000), @p4='?' (Size = 100), @p5='?' (Size = 40), @p6='?' (DbType = DateTime2)"], CommandType='Text', CommandTimeout='30']"
+""SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [AppProductCategories] ([CreatedBy], [CreatedDate], [Description], [Icon], [Name], [UpdatedBy], [UpdatedDate])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6);" (0723d8ff)
+2024-10-30T11:15:15.5588496+07:00 0HN7OIR8C8OUL:00000001 [INF] Executed DbCommand ("4"ms) [Parameters=["@p7='?' (Precision = 18) (Scale = 2) (DbType = Decimal), @p8='?' (Size = 40), @p9='?' (DbType = DateTime2), @p10='?' (Size = 500), @p11='?' (Size = 256) (DbType = AnsiString), @p12='?' (DbType = Boolean), @p13='?' (DbType = Boolean), @p14='?' (Size = 100), @p15='?' (DbType = Int32), @p16='?' (DbType = Int32), @p17='?' (Precision = 18) (Scale = 2) (DbType = Decimal), @p18='?' (DbType = Int32), @p19='?' (Size = 40), @p20='?' (DbType = DateTime2)"], CommandType='Text', CommandTimeout='30']"
+""SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [AppProducts] ([BuyingPrice], [CreatedBy], [CreatedDate], [Description], [Icon], [IsActive], [IsDiscontinued], [Name], [ParentId], [ProductCategoryId], [SellingPrice], [UnitsInStock], [UpdatedBy], [UpdatedDate])
+OUTPUT INSERTED.[Id]
+VALUES (@p7, @p8, @p9, @p10, @p11, @p12, @p13, @p14, @p15, @p16, @p17, @p18, @p19, @p20);" (0723d8ff)
+2024-10-30T11:15:15.5795007+07:00 0HN7OIR8C8OUM:00000001 [INF] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [a].[Id], [a].[BuyingPrice], [a].[CreatedBy], [a].[CreatedDate], [a].[Description], [a].[Icon], [a].[IsActive], [a].[IsDiscontinued], [a].[Name], [a].[ParentId], [a].[ProductCategoryId], [a].[SellingPrice], [a].[UnitsInStock], [a].[UpdatedBy], [a].[UpdatedDate]
+FROM [AppProducts] AS [a]" (0723d8ff)
+2024-10-30T11:15:17.9296790+07:00 0HN7OIR8C8OUN:00000001 [INF] Executed DbCommand ("2"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [a].[Id], [a].[BuyingPrice], [a].[CreatedBy], [a].[CreatedDate], [a].[Description], [a].[Icon], [a].[IsActive], [a].[IsDiscontinued], [a].[Name], [a].[ParentId], [a].[ProductCategoryId], [a].[SellingPrice], [a].[UnitsInStock], [a].[UpdatedBy], [a].[UpdatedDate]
+FROM [AppProducts] AS [a]" (0723d8ff)
+2024-10-30T11:19:22.8513560+07:00 0HN7OIR8C8OUO:00000001 [INF] Executed DbCommand ("4"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [a].[Id], [a].[BuyingPrice], [a].[CreatedBy], [a].[CreatedDate], [a].[Description], [a].[Icon], [a].[IsActive], [a].[IsDiscontinued], [a].[Name], [a].[ParentId], [a].[ProductCategoryId], [a].[SellingPrice], [a].[UnitsInStock], [a].[UpdatedBy], [a].[UpdatedDate]
+FROM [AppProducts] AS [a]" (0723d8ff)
+2024-10-30T11:19:50.3768045+07:00 0HN7OIR8C8OUP:00000001 [INF] Executed DbCommand ("2"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [a].[Id], [a].[BuyingPrice], [a].[CreatedBy], [a].[CreatedDate], [a].[Description], [a].[Icon], [a].[IsActive], [a].[IsDiscontinued], [a].[Name], [a].[ParentId], [a].[ProductCategoryId], [a].[SellingPrice], [a].[UnitsInStock], [a].[UpdatedBy], [a].[UpdatedDate]
+FROM [AppProducts] AS [a]" (0723d8ff)
+2024-10-30T11:20:03.5883535+07:00 0HN7OIR8C8OUQ:00000001 [INF] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [a].[Id], [a].[BuyingPrice], [a].[CreatedBy], [a].[CreatedDate], [a].[Description], [a].[Icon], [a].[IsActive], [a].[IsDiscontinued], [a].[Name], [a].[ParentId], [a].[ProductCategoryId], [a].[SellingPrice], [a].[UnitsInStock], [a].[UpdatedBy], [a].[UpdatedDate]
+FROM [AppProducts] AS [a]" (0723d8ff)
+2024-10-30T11:21:02.4217766+07:00 0HN7OIR8C8OUR:00000001 [INF] Executed DbCommand ("2"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [a].[Id], [a].[BuyingPrice], [a].[CreatedBy], [a].[CreatedDate], [a].[Description], [a].[Icon], [a].[IsActive], [a].[IsDiscontinued], [a].[Name], [a].[ParentId], [a].[ProductCategoryId], [a].[SellingPrice], [a].[UnitsInStock], [a].[UpdatedBy], [a].[UpdatedDate]
+FROM [AppProducts] AS [a]" (0723d8ff)
+2024-10-30T11:21:07.1333471+07:00 0HN7OIR8C8OUS:00000001 [INF] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [a].[Id], [a].[BuyingPrice], [a].[CreatedBy], [a].[CreatedDate], [a].[Description], [a].[Icon], [a].[IsActive], [a].[IsDiscontinued], [a].[Name], [a].[ParentId], [a].[ProductCategoryId], [a].[SellingPrice], [a].[UnitsInStock], [a].[UpdatedBy], [a].[UpdatedDate]
+FROM [AppProducts] AS [a]" (0723d8ff)
+2024-10-30T11:21:59.4853662+07:00 0HN7OIR8C8OUT:00000001 [INF] Executed DbCommand ("2"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [a].[Id], [a].[BuyingPrice], [a].[CreatedBy], [a].[CreatedDate], [a].[Description], [a].[Icon], [a].[IsActive], [a].[IsDiscontinued], [a].[Name], [a].[ParentId], [a].[ProductCategoryId], [a].[SellingPrice], [a].[UnitsInStock], [a].[UpdatedBy], [a].[UpdatedDate]
+FROM [AppProducts] AS [a]" (0723d8ff)
+2024-10-30T11:22:17.0240053+07:00 0HN7OIR8C8OUU:00000001 [INF] Executed DbCommand ("7"ms) [Parameters=["@__p_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [a].[Id], [a].[BuyingPrice], [a].[CreatedBy], [a].[CreatedDate], [a].[Description], [a].[Icon], [a].[IsActive], [a].[IsDiscontinued], [a].[Name], [a].[ParentId], [a].[ProductCategoryId], [a].[SellingPrice], [a].[UnitsInStock], [a].[UpdatedBy], [a].[UpdatedDate]
+FROM [AppProducts] AS [a]
+WHERE [a].[Id] = @__p_0" (0723d8ff)
+2024-10-30T11:22:18.0328943+07:00 0HN7OIR8C8OUV:00000001 [INF] Executed DbCommand ("3"ms) [Parameters=["@__p_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [a].[Id], [a].[BuyingPrice], [a].[CreatedBy], [a].[CreatedDate], [a].[Description], [a].[Icon], [a].[IsActive], [a].[IsDiscontinued], [a].[Name], [a].[ParentId], [a].[ProductCategoryId], [a].[SellingPrice], [a].[UnitsInStock], [a].[UpdatedBy], [a].[UpdatedDate]
+FROM [AppProducts] AS [a]
+WHERE [a].[Id] = @__p_0" (0723d8ff)
+2024-10-30T11:22:21.7068143+07:00 0HN7OIR8C8OV0:00000001 [INF] Executed DbCommand ("4"ms) [Parameters=["@__p_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [a].[Id], [a].[BuyingPrice], [a].[CreatedBy], [a].[CreatedDate], [a].[Description], [a].[Icon], [a].[IsActive], [a].[IsDiscontinued], [a].[Name], [a].[ParentId], [a].[ProductCategoryId], [a].[SellingPrice], [a].[UnitsInStock], [a].[UpdatedBy], [a].[UpdatedDate]
+FROM [AppProducts] AS [a]
+WHERE [a].[Id] = @__p_0" (0723d8ff)
+2024-10-30T11:22:27.9027817+07:00 0HN7OIR8C8OV1:00000001 [INF] Executed DbCommand ("4"ms) [Parameters=["@__p_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [a].[Id], [a].[BuyingPrice], [a].[CreatedBy], [a].[CreatedDate], [a].[Description], [a].[Icon], [a].[IsActive], [a].[IsDiscontinued], [a].[Name], [a].[ParentId], [a].[ProductCategoryId], [a].[SellingPrice], [a].[UnitsInStock], [a].[UpdatedBy], [a].[UpdatedDate]
+FROM [AppProducts] AS [a]
+WHERE [a].[Id] = @__p_0" (0723d8ff)
+2024-10-30T11:32:14.3483851+07:00  [WRN] The WebRootPath was not found: "C:\Users\kuro1\source\repos\Quick Application3\Quick Application3\Quick_Application3.Server\wwwroot". Static files may be unavailable. (3ae2c740)
+2024-10-30T11:32:16.6152184+07:00  [INF] Executed DbCommand ("29"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT 1" (0723d8ff)
+2024-10-30T11:32:16.6538572+07:00  [INF] Executed DbCommand ("22"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT OBJECT_ID(N'[__EFMigrationsHistory]');" (0723d8ff)
+2024-10-30T11:32:16.6635477+07:00  [INF] Executed DbCommand ("5"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT 1" (0723d8ff)
+2024-10-30T11:32:16.6670454+07:00  [INF] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT OBJECT_ID(N'[__EFMigrationsHistory]');" (0723d8ff)
+2024-10-30T11:32:16.6859700+07:00  [INF] Executed DbCommand ("3"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];" (0723d8ff)
+2024-10-30T11:32:16.7110324+07:00  [INF] No migrations were applied. The database is already up to date. (503cba9d)
+2024-10-30T11:32:16.9244643+07:00  [INF] Executed DbCommand ("5"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AspNetUsers] AS [a]) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END" (0723d8ff)
+2024-10-30T11:32:16.9372225+07:00  [INF] Executed DbCommand ("2"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AppCustomers] AS [a]) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END" (0723d8ff)
+2024-10-30T11:32:17.0720071+07:00  [INF] Executed DbCommand ("25"ms) [Parameters=["@__identifier_0='?' (Size = 100)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [o].[Id], [o].[ApplicationType], [o].[ClientId], [o].[ClientSecret], [o].[ClientType], [o].[ConcurrencyToken], [o].[ConsentType], [o].[DisplayName], [o].[DisplayNames], [o].[JsonWebKeySet], [o].[Permissions], [o].[PostLogoutRedirectUris], [o].[Properties], [o].[RedirectUris], [o].[Requirements], [o].[Settings]
+FROM [OpenIddictApplications] AS [o]
+WHERE [o].[ClientId] = @__identifier_0" (0723d8ff)
+2024-10-30T11:32:17.1732417+07:00  [INF] Executed DbCommand ("1"ms) [Parameters=["@__identifier_0='?' (Size = 100)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [o].[Id], [o].[ApplicationType], [o].[ClientId], [o].[ClientSecret], [o].[ClientType], [o].[ConcurrencyToken], [o].[ConsentType], [o].[DisplayName], [o].[DisplayNames], [o].[JsonWebKeySet], [o].[Permissions], [o].[PostLogoutRedirectUris], [o].[Properties], [o].[RedirectUris], [o].[Requirements], [o].[Settings]
+FROM [OpenIddictApplications] AS [o]
+WHERE [o].[ClientId] = @__identifier_0" (0723d8ff)
+2024-10-30T11:32:17.2716098+07:00  [INF] Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl (d6ab0d5f)
+2024-10-30T11:32:17.2742180+07:00  [INF] Quartz Scheduler created (389d80b0)
+2024-10-30T11:32:17.2768802+07:00  [INF] JobFactory set to: Quartz.Simpl.MicrosoftDependencyInjectionJobFactory (17471663)
+2024-10-30T11:32:17.2790906+07:00  [INF] RAMJobStore initialized. (8c5a21db)
+2024-10-30T11:32:17.2813350+07:00  [INF] Quartz Scheduler 3.8.1.0 - 'QuartzScheduler' with instanceId 'NON_CLUSTERED' initialized (80014aa8)
+2024-10-30T11:32:17.2834750+07:00  [INF] Using thread pool 'Quartz.Simpl.DefaultThreadPool', size: 10 (7942d54d)
+2024-10-30T11:32:17.2854850+07:00  [INF] Using job store 'Quartz.Simpl.RAMJobStore', supports persistence: False, clustered: False (46d3fae1)
+2024-10-30T11:32:17.4653396+07:00  [WRN] The WebRootPath was not found: "C:\Users\kuro1\source\repos\Quick Application3\Quick Application3\Quick_Application3.Server\wwwroot". Static files may be unavailable. (3ae2c740)
+2024-10-30T11:32:17.5670505+07:00  [INF] Now listening on: "https://localhost:7085" (d826f4b8)
+2024-10-30T11:32:17.5701858+07:00  [INF] Now listening on: "http://localhost:5225" (d826f4b8)
+2024-10-30T11:32:17.5729467+07:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2024-10-30T11:32:17.5756667+07:00  [INF] Hosting environment: "Development" (bc5a1a4e)
+2024-10-30T11:32:17.5780325+07:00  [INF] Content root path: "C:\Users\kuro1\source\repos\Quick Application3\Quick Application3\Quick_Application3.Server" (cc26f24e)
+2024-10-30T11:32:17.5827013+07:00  [INF] Scheduler QuartzScheduler_$_NON_CLUSTERED started. (51b2cfb9)
+2024-10-30T11:32:48.1253900+07:00 0HN7OJFB1Q9BR:00000001 [INF] Executed DbCommand ("2"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [a].[Id], [a].[BuyingPrice], [a].[CreatedBy], [a].[CreatedDate], [a].[Description], [a].[Icon], [a].[IsActive], [a].[IsDiscontinued], [a].[Name], [a].[ParentId], [a].[ProductCategoryId], [a].[SellingPrice], [a].[UnitsInStock], [a].[UpdatedBy], [a].[UpdatedDate]
+FROM [AppProducts] AS [a]" (0723d8ff)
+2024-10-30T11:32:55.7558751+07:00 0HN7OJFB1Q9BS:00000001 [INF] Executed DbCommand ("3"ms) [Parameters=["@__p_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [a].[Id], [a].[BuyingPrice], [a].[CreatedBy], [a].[CreatedDate], [a].[Description], [a].[Icon], [a].[IsActive], [a].[IsDiscontinued], [a].[Name], [a].[ParentId], [a].[ProductCategoryId], [a].[SellingPrice], [a].[UnitsInStock], [a].[UpdatedBy], [a].[UpdatedDate]
+FROM [AppProducts] AS [a]
+WHERE [a].[Id] = @__p_0" (0723d8ff)
+2024-10-30T11:32:59.0567376+07:00 0HN7OJFB1Q9BT:00000001 [INF] Executed DbCommand ("2"ms) [Parameters=["@__p_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [a].[Id], [a].[BuyingPrice], [a].[CreatedBy], [a].[CreatedDate], [a].[Description], [a].[Icon], [a].[IsActive], [a].[IsDiscontinued], [a].[Name], [a].[ParentId], [a].[ProductCategoryId], [a].[SellingPrice], [a].[UnitsInStock], [a].[UpdatedBy], [a].[UpdatedDate]
+FROM [AppProducts] AS [a]
+WHERE [a].[Id] = @__p_0" (0723d8ff)
+2024-10-30T11:33:18.1996815+07:00 0HN7OJFB1Q9BU:00000001 [INF] Executed DbCommand ("4"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [a].[Id], [a].[BuyingPrice], [a].[CreatedBy], [a].[CreatedDate], [a].[Description], [a].[Icon], [a].[IsActive], [a].[IsDiscontinued], [a].[Name], [a].[ParentId], [a].[ProductCategoryId], [a].[SellingPrice], [a].[UnitsInStock], [a].[UpdatedBy], [a].[UpdatedDate]
+FROM [AppProducts] AS [a]" (0723d8ff)
+2024-10-30T11:46:07.1789296+07:00  [WRN] The WebRootPath was not found: "C:\Users\kuro1\source\repos\Quick Application3\Quick Application3\Quick_Application3.Server\wwwroot". Static files may be unavailable. (3ae2c740)
+2024-10-30T11:46:09.7148256+07:00  [INF] Executed DbCommand ("29"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT 1" (0723d8ff)
+2024-10-30T11:46:09.7647004+07:00  [INF] Executed DbCommand ("32"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT OBJECT_ID(N'[__EFMigrationsHistory]');" (0723d8ff)
+2024-10-30T11:46:09.7704002+07:00  [INF] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT 1" (0723d8ff)
+2024-10-30T11:46:09.7744567+07:00  [INF] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT OBJECT_ID(N'[__EFMigrationsHistory]');" (0723d8ff)
+2024-10-30T11:46:09.7925813+07:00  [INF] Executed DbCommand ("3"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];" (0723d8ff)
+2024-10-30T11:46:09.8148415+07:00  [INF] No migrations were applied. The database is already up to date. (503cba9d)
+2024-10-30T11:46:10.0464325+07:00  [INF] Executed DbCommand ("3"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AspNetUsers] AS [a]) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END" (0723d8ff)
+2024-10-30T11:46:10.0614535+07:00  [INF] Executed DbCommand ("2"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AppCustomers] AS [a]) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END" (0723d8ff)
+2024-10-30T11:46:10.1900446+07:00  [INF] Executed DbCommand ("23"ms) [Parameters=["@__identifier_0='?' (Size = 100)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [o].[Id], [o].[ApplicationType], [o].[ClientId], [o].[ClientSecret], [o].[ClientType], [o].[ConcurrencyToken], [o].[ConsentType], [o].[DisplayName], [o].[DisplayNames], [o].[JsonWebKeySet], [o].[Permissions], [o].[PostLogoutRedirectUris], [o].[Properties], [o].[RedirectUris], [o].[Requirements], [o].[Settings]
+FROM [OpenIddictApplications] AS [o]
+WHERE [o].[ClientId] = @__identifier_0" (0723d8ff)
+2024-10-30T11:46:10.2831134+07:00  [INF] Executed DbCommand ("1"ms) [Parameters=["@__identifier_0='?' (Size = 100)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [o].[Id], [o].[ApplicationType], [o].[ClientId], [o].[ClientSecret], [o].[ClientType], [o].[ConcurrencyToken], [o].[ConsentType], [o].[DisplayName], [o].[DisplayNames], [o].[JsonWebKeySet], [o].[Permissions], [o].[PostLogoutRedirectUris], [o].[Properties], [o].[RedirectUris], [o].[Requirements], [o].[Settings]
+FROM [OpenIddictApplications] AS [o]
+WHERE [o].[ClientId] = @__identifier_0" (0723d8ff)
+2024-10-30T11:46:10.3805074+07:00  [INF] Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl (d6ab0d5f)
+2024-10-30T11:46:10.3829523+07:00  [INF] Quartz Scheduler created (389d80b0)
+2024-10-30T11:46:10.3862134+07:00  [INF] JobFactory set to: Quartz.Simpl.MicrosoftDependencyInjectionJobFactory (17471663)
+2024-10-30T11:46:10.3892276+07:00  [INF] RAMJobStore initialized. (8c5a21db)
+2024-10-30T11:46:10.3917020+07:00  [INF] Quartz Scheduler 3.8.1.0 - 'QuartzScheduler' with instanceId 'NON_CLUSTERED' initialized (80014aa8)
+2024-10-30T11:46:10.3941501+07:00  [INF] Using thread pool 'Quartz.Simpl.DefaultThreadPool', size: 10 (7942d54d)
+2024-10-30T11:46:10.3964941+07:00  [INF] Using job store 'Quartz.Simpl.RAMJobStore', supports persistence: False, clustered: False (46d3fae1)
+2024-10-30T11:46:10.5721177+07:00  [WRN] The WebRootPath was not found: "C:\Users\kuro1\source\repos\Quick Application3\Quick Application3\Quick_Application3.Server\wwwroot". Static files may be unavailable. (3ae2c740)
+2024-10-30T11:46:10.6715075+07:00  [INF] Now listening on: "https://localhost:7085" (d826f4b8)
+2024-10-30T11:46:10.6736036+07:00  [INF] Now listening on: "http://localhost:5225" (d826f4b8)
+2024-10-30T11:46:10.6758278+07:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2024-10-30T11:46:10.6786260+07:00  [INF] Hosting environment: "Development" (bc5a1a4e)
+2024-10-30T11:46:10.6806418+07:00  [INF] Content root path: "C:\Users\kuro1\source\repos\Quick Application3\Quick Application3\Quick_Application3.Server" (cc26f24e)
+2024-10-30T11:46:10.6873112+07:00  [INF] Scheduler QuartzScheduler_$_NON_CLUSTERED started. (51b2cfb9)
+2024-10-30T11:46:51.6571428+07:00 0HN7OJN3BA85J:00000001 [INF] Executed DbCommand ("4"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [a].[Id], [a].[BuyingPrice], [a].[CreatedBy], [a].[CreatedDate], [a].[Description], [a].[Icon], [a].[IsActive], [a].[IsDiscontinued], [a].[Name], [a].[ParentId], [a].[ProductCategoryId], [a].[SellingPrice], [a].[UnitsInStock], [a].[UpdatedBy], [a].[UpdatedDate]
+FROM [AppProducts] AS [a]" (0723d8ff)
+2024-10-30T11:47:47.6743463+07:00 0HN7OJN3BA85K:00000001 [INF] Executed DbCommand ("3"ms) [Parameters=["@__p_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [a].[Id], [a].[BuyingPrice], [a].[CreatedBy], [a].[CreatedDate], [a].[Description], [a].[Icon], [a].[IsActive], [a].[IsDiscontinued], [a].[Name], [a].[ParentId], [a].[ProductCategoryId], [a].[SellingPrice], [a].[UnitsInStock], [a].[UpdatedBy], [a].[UpdatedDate]
+FROM [AppProducts] AS [a]
+WHERE [a].[Id] = @__p_0" (0723d8ff)
+2024-10-30T11:47:47.8008138+07:00 0HN7OJN3BA85K:00000001 [INF] Executed DbCommand ("14"ms) [Parameters=["@p0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+DELETE FROM [AppProducts]
+OUTPUT 1
+WHERE [Id] = @p0;" (0723d8ff)
+2024-10-30T11:47:56.6959768+07:00 0HN7OJN3BA85L:00000001 [INF] Executed DbCommand ("2"ms) [Parameters=["@__p_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [a].[Id], [a].[BuyingPrice], [a].[CreatedBy], [a].[CreatedDate], [a].[Description], [a].[Icon], [a].[IsActive], [a].[IsDiscontinued], [a].[Name], [a].[ParentId], [a].[ProductCategoryId], [a].[SellingPrice], [a].[UnitsInStock], [a].[UpdatedBy], [a].[UpdatedDate]
+FROM [AppProducts] AS [a]
+WHERE [a].[Id] = @__p_0" (0723d8ff)
+2024-10-30T11:47:58.1778274+07:00 0HN7OJN3BA85M:00000001 [INF] Executed DbCommand ("2"ms) [Parameters=["@__p_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [a].[Id], [a].[BuyingPrice], [a].[CreatedBy], [a].[CreatedDate], [a].[Description], [a].[Icon], [a].[IsActive], [a].[IsDiscontinued], [a].[Name], [a].[ParentId], [a].[ProductCategoryId], [a].[SellingPrice], [a].[UnitsInStock], [a].[UpdatedBy], [a].[UpdatedDate]
+FROM [AppProducts] AS [a]
+WHERE [a].[Id] = @__p_0" (0723d8ff)
+2024-10-30T11:48:06.3877700+07:00 0HN7OJN3BA85N:00000001 [INF] Executed DbCommand ("2"ms) [Parameters=["@__p_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [a].[Id], [a].[BuyingPrice], [a].[CreatedBy], [a].[CreatedDate], [a].[Description], [a].[Icon], [a].[IsActive], [a].[IsDiscontinued], [a].[Name], [a].[ParentId], [a].[ProductCategoryId], [a].[SellingPrice], [a].[UnitsInStock], [a].[UpdatedBy], [a].[UpdatedDate]
+FROM [AppProducts] AS [a]
+WHERE [a].[Id] = @__p_0" (0723d8ff)
+2024-10-30T11:48:12.4541390+07:00 0HN7OJN3BA85O:00000001 [INF] Executed DbCommand ("2"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [a].[Id], [a].[BuyingPrice], [a].[CreatedBy], [a].[CreatedDate], [a].[Description], [a].[Icon], [a].[IsActive], [a].[IsDiscontinued], [a].[Name], [a].[ParentId], [a].[ProductCategoryId], [a].[SellingPrice], [a].[UnitsInStock], [a].[UpdatedBy], [a].[UpdatedDate]
+FROM [AppProducts] AS [a]" (0723d8ff)
+2024-10-30T11:48:25.2106236+07:00 0HN7OJN3BA85P:00000001 [INF] Executed DbCommand ("2"ms) [Parameters=["@__p_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [a].[Id], [a].[BuyingPrice], [a].[CreatedBy], [a].[CreatedDate], [a].[Description], [a].[Icon], [a].[IsActive], [a].[IsDiscontinued], [a].[Name], [a].[ParentId], [a].[ProductCategoryId], [a].[SellingPrice], [a].[UnitsInStock], [a].[UpdatedBy], [a].[UpdatedDate]
+FROM [AppProducts] AS [a]
+WHERE [a].[Id] = @__p_0" (0723d8ff)
+2024-10-30T11:48:25.2173103+07:00 0HN7OJN3BA85P:00000001 [INF] Executed DbCommand ("1"ms) [Parameters=["@p0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+DELETE FROM [AppProducts]
+OUTPUT 1
+WHERE [Id] = @p0;" (0723d8ff)
+2024-10-30T11:48:30.4880237+07:00 0HN7OJN3BA85Q:00000001 [INF] Executed DbCommand ("2"ms) [Parameters=["@__p_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [a].[Id], [a].[BuyingPrice], [a].[CreatedBy], [a].[CreatedDate], [a].[Description], [a].[Icon], [a].[IsActive], [a].[IsDiscontinued], [a].[Name], [a].[ParentId], [a].[ProductCategoryId], [a].[SellingPrice], [a].[UnitsInStock], [a].[UpdatedBy], [a].[UpdatedDate]
+FROM [AppProducts] AS [a]
+WHERE [a].[Id] = @__p_0" (0723d8ff)
+2024-10-30T11:48:33.0643247+07:00 0HN7OJN3BA85R:00000001 [INF] Executed DbCommand ("2"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [a].[Id], [a].[BuyingPrice], [a].[CreatedBy], [a].[CreatedDate], [a].[Description], [a].[Icon], [a].[IsActive], [a].[IsDiscontinued], [a].[Name], [a].[ParentId], [a].[ProductCategoryId], [a].[SellingPrice], [a].[UnitsInStock], [a].[UpdatedBy], [a].[UpdatedDate]
+FROM [AppProducts] AS [a]" (0723d8ff)
+2024-10-30T11:49:50.5159138+07:00 0HN7OJN3BA85S:00000001 [INF] Executed DbCommand ("3"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [a].[Id], [a].[BuyingPrice], [a].[CreatedBy], [a].[CreatedDate], [a].[Description], [a].[Icon], [a].[IsActive], [a].[IsDiscontinued], [a].[Name], [a].[ParentId], [a].[ProductCategoryId], [a].[SellingPrice], [a].[UnitsInStock], [a].[UpdatedBy], [a].[UpdatedDate]
+FROM [AppProducts] AS [a]" (0723d8ff)
+2024-10-30T14:13:37.6691557+07:00  [WRN] The WebRootPath was not found: "C:\Users\kuro1\source\repos\Quick Application3\Quick Application3\Quick_Application3.Server\wwwroot". Static files may be unavailable. (3ae2c740)
+2024-10-30T14:13:40.4482643+07:00  [INF] Executed DbCommand ("39"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT 1" (0723d8ff)
+2024-10-30T14:13:40.5040685+07:00  [INF] Executed DbCommand ("33"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT OBJECT_ID(N'[__EFMigrationsHistory]');" (0723d8ff)
+2024-10-30T14:13:40.5095136+07:00  [INF] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT 1" (0723d8ff)
+2024-10-30T14:13:40.5132838+07:00  [INF] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT OBJECT_ID(N'[__EFMigrationsHistory]');" (0723d8ff)
+2024-10-30T14:13:40.5319891+07:00  [INF] Executed DbCommand ("3"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];" (0723d8ff)
+2024-10-30T14:13:40.5549558+07:00  [INF] No migrations were applied. The database is already up to date. (503cba9d)
+2024-10-30T14:13:40.7881849+07:00  [INF] Executed DbCommand ("3"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AspNetUsers] AS [a]) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END" (0723d8ff)
+2024-10-30T14:13:40.8036723+07:00  [INF] Executed DbCommand ("2"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AppCustomers] AS [a]) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END" (0723d8ff)
+2024-10-30T14:13:40.9940909+07:00  [INF] Executed DbCommand ("24"ms) [Parameters=["@__identifier_0='?' (Size = 100)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [o].[Id], [o].[ApplicationType], [o].[ClientId], [o].[ClientSecret], [o].[ClientType], [o].[ConcurrencyToken], [o].[ConsentType], [o].[DisplayName], [o].[DisplayNames], [o].[JsonWebKeySet], [o].[Permissions], [o].[PostLogoutRedirectUris], [o].[Properties], [o].[RedirectUris], [o].[Requirements], [o].[Settings]
+FROM [OpenIddictApplications] AS [o]
+WHERE [o].[ClientId] = @__identifier_0" (0723d8ff)
+2024-10-30T14:13:41.1157084+07:00  [INF] Executed DbCommand ("1"ms) [Parameters=["@__identifier_0='?' (Size = 100)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [o].[Id], [o].[ApplicationType], [o].[ClientId], [o].[ClientSecret], [o].[ClientType], [o].[ConcurrencyToken], [o].[ConsentType], [o].[DisplayName], [o].[DisplayNames], [o].[JsonWebKeySet], [o].[Permissions], [o].[PostLogoutRedirectUris], [o].[Properties], [o].[RedirectUris], [o].[Requirements], [o].[Settings]
+FROM [OpenIddictApplications] AS [o]
+WHERE [o].[ClientId] = @__identifier_0" (0723d8ff)
+2024-10-30T14:13:41.2198260+07:00  [INF] Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl (d6ab0d5f)
+2024-10-30T14:13:41.2232614+07:00  [INF] Quartz Scheduler created (389d80b0)
+2024-10-30T14:13:41.2263041+07:00  [INF] JobFactory set to: Quartz.Simpl.MicrosoftDependencyInjectionJobFactory (17471663)
+2024-10-30T14:13:41.2286940+07:00  [INF] RAMJobStore initialized. (8c5a21db)
+2024-10-30T14:13:41.2324482+07:00  [INF] Quartz Scheduler 3.8.1.0 - 'QuartzScheduler' with instanceId 'NON_CLUSTERED' initialized (80014aa8)
+2024-10-30T14:13:41.2348845+07:00  [INF] Using thread pool 'Quartz.Simpl.DefaultThreadPool', size: 10 (7942d54d)
+2024-10-30T14:13:41.2380302+07:00  [INF] Using job store 'Quartz.Simpl.RAMJobStore', supports persistence: False, clustered: False (46d3fae1)
+2024-10-30T14:13:41.4430028+07:00  [WRN] The WebRootPath was not found: "C:\Users\kuro1\source\repos\Quick Application3\Quick Application3\Quick_Application3.Server\wwwroot". Static files may be unavailable. (3ae2c740)
+2024-10-30T14:13:41.5391507+07:00  [INF] Now listening on: "https://localhost:7085" (d826f4b8)
+2024-10-30T14:13:41.5417786+07:00  [INF] Now listening on: "http://localhost:5225" (d826f4b8)
+2024-10-30T14:13:41.5440605+07:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2024-10-30T14:13:41.5462152+07:00  [INF] Hosting environment: "Development" (bc5a1a4e)
+2024-10-30T14:13:41.5482671+07:00  [INF] Content root path: "C:\Users\kuro1\source\repos\Quick Application3\Quick Application3\Quick_Application3.Server" (cc26f24e)
+2024-10-30T14:13:41.5546715+07:00  [INF] Scheduler QuartzScheduler_$_NON_CLUSTERED started. (51b2cfb9)
+2024-10-30T14:14:29.1014524+07:00 0HN7OM9H7OU7D:00000001 [INF] Executed DbCommand ("4"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [a].[Id], [a].[BuyingPrice], [a].[CreatedBy], [a].[CreatedDate], [a].[Description], [a].[Icon], [a].[IsActive], [a].[IsDiscontinued], [a].[Name], [a].[ParentId], [a].[ProductCategoryId], [a].[SellingPrice], [a].[UnitsInStock], [a].[UpdatedBy], [a].[UpdatedDate]
+FROM [AppProducts] AS [a]" (0723d8ff)
+2024-10-30T14:14:40.0366343+07:00 0HN7OM9H7OU7E:00000001 [INF] Executed DbCommand ("2"ms) [Parameters=["@__p_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [a].[Id], [a].[BuyingPrice], [a].[CreatedBy], [a].[CreatedDate], [a].[Description], [a].[Icon], [a].[IsActive], [a].[IsDiscontinued], [a].[Name], [a].[ParentId], [a].[ProductCategoryId], [a].[SellingPrice], [a].[UnitsInStock], [a].[UpdatedBy], [a].[UpdatedDate]
+FROM [AppProducts] AS [a]
+WHERE [a].[Id] = @__p_0" (0723d8ff)
+2024-10-30T14:14:51.3755419+07:00 0HN7OM9H7OU7F:00000001 [INF] Executed DbCommand ("3"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [a].[Id], [a].[BuyingPrice], [a].[CreatedBy], [a].[CreatedDate], [a].[Description], [a].[Icon], [a].[IsActive], [a].[IsDiscontinued], [a].[Name], [a].[ParentId], [a].[ProductCategoryId], [a].[SellingPrice], [a].[UnitsInStock], [a].[UpdatedBy], [a].[UpdatedDate]
+FROM [AppProducts] AS [a]" (0723d8ff)
+2024-10-30T14:20:14.8886585+07:00  [WRN] The WebRootPath was not found: "C:\Users\kuro1\source\repos\Quick Application3\Quick Application3\Quick_Application3.Server\wwwroot". Static files may be unavailable. (3ae2c740)
+2024-10-30T14:20:16.4627437+07:00  [INF] Executed DbCommand ("38"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT 1" (0723d8ff)
+2024-10-30T14:20:16.5219783+07:00  [INF] Executed DbCommand ("36"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT OBJECT_ID(N'[__EFMigrationsHistory]');" (0723d8ff)
+2024-10-30T14:20:16.5281221+07:00  [INF] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT 1" (0723d8ff)
+2024-10-30T14:20:16.5321236+07:00  [INF] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT OBJECT_ID(N'[__EFMigrationsHistory]');" (0723d8ff)
+2024-10-30T14:20:16.5546076+07:00  [INF] Executed DbCommand ("3"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];" (0723d8ff)
+2024-10-30T14:20:16.5918556+07:00  [INF] No migrations were applied. The database is already up to date. (503cba9d)
+2024-10-30T14:20:16.9341544+07:00  [INF] Executed DbCommand ("5"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AspNetUsers] AS [a]) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END" (0723d8ff)
+2024-10-30T14:20:16.9481275+07:00  [INF] Executed DbCommand ("2"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AppCustomers] AS [a]) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END" (0723d8ff)
+2024-10-30T14:20:17.1027989+07:00  [INF] Executed DbCommand ("21"ms) [Parameters=["@__identifier_0='?' (Size = 100)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [o].[Id], [o].[ApplicationType], [o].[ClientId], [o].[ClientSecret], [o].[ClientType], [o].[ConcurrencyToken], [o].[ConsentType], [o].[DisplayName], [o].[DisplayNames], [o].[JsonWebKeySet], [o].[Permissions], [o].[PostLogoutRedirectUris], [o].[Properties], [o].[RedirectUris], [o].[Requirements], [o].[Settings]
+FROM [OpenIddictApplications] AS [o]
+WHERE [o].[ClientId] = @__identifier_0" (0723d8ff)
+2024-10-30T14:20:17.2015743+07:00  [INF] Executed DbCommand ("2"ms) [Parameters=["@__identifier_0='?' (Size = 100)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [o].[Id], [o].[ApplicationType], [o].[ClientId], [o].[ClientSecret], [o].[ClientType], [o].[ConcurrencyToken], [o].[ConsentType], [o].[DisplayName], [o].[DisplayNames], [o].[JsonWebKeySet], [o].[Permissions], [o].[PostLogoutRedirectUris], [o].[Properties], [o].[RedirectUris], [o].[Requirements], [o].[Settings]
+FROM [OpenIddictApplications] AS [o]
+WHERE [o].[ClientId] = @__identifier_0" (0723d8ff)
+2024-10-30T14:20:17.3234790+07:00  [INF] Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl (d6ab0d5f)
+2024-10-30T14:20:17.3262869+07:00  [INF] Quartz Scheduler created (389d80b0)
+2024-10-30T14:20:17.3293173+07:00  [INF] JobFactory set to: Quartz.Simpl.MicrosoftDependencyInjectionJobFactory (17471663)
+2024-10-30T14:20:17.3327322+07:00  [INF] RAMJobStore initialized. (8c5a21db)
+2024-10-30T14:20:17.3361433+07:00  [INF] Quartz Scheduler 3.8.1.0 - 'QuartzScheduler' with instanceId 'NON_CLUSTERED' initialized (80014aa8)
+2024-10-30T14:20:17.3384221+07:00  [INF] Using thread pool 'Quartz.Simpl.DefaultThreadPool', size: 10 (7942d54d)
+2024-10-30T14:20:17.3411358+07:00  [INF] Using job store 'Quartz.Simpl.RAMJobStore', supports persistence: False, clustered: False (46d3fae1)
+2024-10-30T14:20:17.5387858+07:00  [WRN] The WebRootPath was not found: "C:\Users\kuro1\source\repos\Quick Application3\Quick Application3\Quick_Application3.Server\wwwroot". Static files may be unavailable. (3ae2c740)
+2024-10-30T14:20:17.6435272+07:00  [INF] Now listening on: "https://localhost:7085" (d826f4b8)
+2024-10-30T14:20:17.6460411+07:00  [INF] Now listening on: "http://localhost:5225" (d826f4b8)
+2024-10-30T14:20:17.6492868+07:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2024-10-30T14:20:17.6522940+07:00  [INF] Hosting environment: "Development" (bc5a1a4e)
+2024-10-30T14:20:17.6553119+07:00  [INF] Content root path: "C:\Users\kuro1\source\repos\Quick Application3\Quick Application3\Quick_Application3.Server" (cc26f24e)
+2024-10-30T14:20:17.6621348+07:00  [INF] Scheduler QuartzScheduler_$_NON_CLUSTERED started. (51b2cfb9)
+2024-10-30T14:24:17.6576955+07:00  [INF] Executed DbCommand ("14"ms) [Parameters=["@__p_1='?' (DbType = Int32), @__date_0='?' (DbType = DateTime2)"], CommandType='Text', CommandTimeout='30']"
+""DELETE FROM [o]
+FROM [OpenIddictTokens] AS [o]
+WHERE [o].[Id] IN (
+    SELECT TOP(@__p_1) [o0].[Id]
+    FROM [OpenIddictTokens] AS [o0]
+    LEFT JOIN [OpenIddictAuthorizations] AS [o1] ON [o0].[AuthorizationId] = [o1].[Id]
+    WHERE [o0].[CreationDate] < @__date_0 AND ((([o0].[Status] <> N'inactive' OR [o0].[Status] IS NULL) AND ([o0].[Status] <> N'valid' OR [o0].[Status] IS NULL)) OR ([o1].[Id] IS NOT NULL AND ([o1].[Status] <> N'valid' OR [o1].[Status] IS NULL)) OR [o0].[ExpirationDate] < GETUTCDATE())
+    ORDER BY [o0].[Id]
+)" (0723d8ff)
+2024-10-30T14:24:17.6879355+07:00  [INF] Executed DbCommand ("8"ms) [Parameters=["@__p_1='?' (DbType = Int32), @__date_0='?' (DbType = DateTime2)"], CommandType='Text', CommandTimeout='30']"
+""DELETE FROM [o]
+FROM [OpenIddictAuthorizations] AS [o]
+WHERE [o].[Id] IN (
+    SELECT TOP(@__p_1) [o0].[Id]
+    FROM [OpenIddictAuthorizations] AS [o0]
+    WHERE [o0].[CreationDate] < @__date_0 AND ([o0].[Status] <> N'valid' OR [o0].[Status] IS NULL OR ([o0].[Type] = N'ad-hoc' AND NOT EXISTS (
+        SELECT 1
+        FROM [OpenIddictTokens] AS [o1]
+        WHERE [o0].[Id] = [o1].[AuthorizationId])))
+    ORDER BY [o0].[Id]
+)" (0723d8ff)
+2024-10-30T15:07:55.8500862+07:00  [WRN] The WebRootPath was not found: "C:\Users\kuro1\source\repos\Quick Application3\Quick Application3\Quick_Application3.Server\wwwroot". Static files may be unavailable. (3ae2c740)
+2024-10-30T15:07:58.2292060+07:00  [INF] Executed DbCommand ("35"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT 1" (0723d8ff)
+2024-10-30T15:07:58.2942257+07:00  [INF] Executed DbCommand ("43"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT OBJECT_ID(N'[__EFMigrationsHistory]');" (0723d8ff)
+2024-10-30T15:07:58.3010573+07:00  [INF] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT 1" (0723d8ff)
+2024-10-30T15:07:58.3056944+07:00  [INF] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT OBJECT_ID(N'[__EFMigrationsHistory]');" (0723d8ff)
+2024-10-30T15:07:58.3393364+07:00  [INF] Executed DbCommand ("4"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];" (0723d8ff)
+2024-10-30T15:07:58.3705321+07:00  [INF] No migrations were applied. The database is already up to date. (503cba9d)
+2024-10-30T15:07:58.6704247+07:00  [INF] Executed DbCommand ("4"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AspNetUsers] AS [a]) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END" (0723d8ff)
+2024-10-30T15:07:58.6860040+07:00  [INF] Executed DbCommand ("3"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AppCustomers] AS [a]) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END" (0723d8ff)
+2024-10-30T15:07:58.8981035+07:00  [INF] Executed DbCommand ("30"ms) [Parameters=["@__identifier_0='?' (Size = 100)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [o].[Id], [o].[ApplicationType], [o].[ClientId], [o].[ClientSecret], [o].[ClientType], [o].[ConcurrencyToken], [o].[ConsentType], [o].[DisplayName], [o].[DisplayNames], [o].[JsonWebKeySet], [o].[Permissions], [o].[PostLogoutRedirectUris], [o].[Properties], [o].[RedirectUris], [o].[Requirements], [o].[Settings]
+FROM [OpenIddictApplications] AS [o]
+WHERE [o].[ClientId] = @__identifier_0" (0723d8ff)
+2024-10-30T15:07:59.0073899+07:00  [INF] Executed DbCommand ("1"ms) [Parameters=["@__identifier_0='?' (Size = 100)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [o].[Id], [o].[ApplicationType], [o].[ClientId], [o].[ClientSecret], [o].[ClientType], [o].[ConcurrencyToken], [o].[ConsentType], [o].[DisplayName], [o].[DisplayNames], [o].[JsonWebKeySet], [o].[Permissions], [o].[PostLogoutRedirectUris], [o].[Properties], [o].[RedirectUris], [o].[Requirements], [o].[Settings]
+FROM [OpenIddictApplications] AS [o]
+WHERE [o].[ClientId] = @__identifier_0" (0723d8ff)
+2024-10-30T15:07:59.1306344+07:00  [INF] Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl (d6ab0d5f)
+2024-10-30T15:07:59.1354141+07:00  [INF] Quartz Scheduler created (389d80b0)
+2024-10-30T15:07:59.1570038+07:00  [INF] JobFactory set to: Quartz.Simpl.MicrosoftDependencyInjectionJobFactory (17471663)
+2024-10-30T15:07:59.1622972+07:00  [INF] RAMJobStore initialized. (8c5a21db)
+2024-10-30T15:07:59.1659111+07:00  [INF] Quartz Scheduler 3.8.1.0 - 'QuartzScheduler' with instanceId 'NON_CLUSTERED' initialized (80014aa8)
+2024-10-30T15:07:59.1699630+07:00  [INF] Using thread pool 'Quartz.Simpl.DefaultThreadPool', size: 10 (7942d54d)
+2024-10-30T15:07:59.1733495+07:00  [INF] Using job store 'Quartz.Simpl.RAMJobStore', supports persistence: False, clustered: False (46d3fae1)
+2024-10-30T15:07:59.4196273+07:00  [WRN] The WebRootPath was not found: "C:\Users\kuro1\source\repos\Quick Application3\Quick Application3\Quick_Application3.Server\wwwroot". Static files may be unavailable. (3ae2c740)
+2024-10-30T15:07:59.5391155+07:00  [INF] Now listening on: "https://localhost:7085" (d826f4b8)
+2024-10-30T15:07:59.5415639+07:00  [INF] Now listening on: "http://localhost:5225" (d826f4b8)
+2024-10-30T15:07:59.5446320+07:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2024-10-30T15:07:59.5714485+07:00  [INF] Hosting environment: "Development" (bc5a1a4e)
+2024-10-30T15:07:59.5747411+07:00  [INF] Content root path: "C:\Users\kuro1\source\repos\Quick Application3\Quick Application3\Quick_Application3.Server" (cc26f24e)
+2024-10-30T15:07:59.5804906+07:00  [INF] Scheduler QuartzScheduler_$_NON_CLUSTERED started. (51b2cfb9)
+2024-10-30T15:08:48.8305628+07:00 0HN7ON7S4SLPS:00000001 [INF] Executed DbCommand ("4"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [a].[Id], [a].[BuyingPrice], [a].[CreatedBy], [a].[CreatedDate], [a].[Description], [a].[Icon], [a].[IsActive], [a].[IsDiscontinued], [a].[Name], [a].[ParentId], [a].[ProductCategoryId], [a].[SellingPrice], [a].[UnitsInStock], [a].[UpdatedBy], [a].[UpdatedDate]
+FROM [AppProducts] AS [a]" (0723d8ff)
+2024-10-30T15:09:22.5834425+07:00 0HN7ON7S4SLPT:00000001 [INF] Executed DbCommand ("5"ms) [Parameters=["@p0='?' (Size = 40), @p1='?' (DbType = DateTime2), @p2='?' (Size = 500), @p3='?' (Size = 4000), @p4='?' (Size = 100), @p5='?' (Size = 40), @p6='?' (DbType = DateTime2)"], CommandType='Text', CommandTimeout='30']"
+""SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [AppProductCategories] ([CreatedBy], [CreatedDate], [Description], [Icon], [Name], [UpdatedBy], [UpdatedDate])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6);" (0723d8ff)
+2024-10-30T15:09:22.6073658+07:00 0HN7ON7S4SLPT:00000001 [INF] Executed DbCommand ("4"ms) [Parameters=["@p7='?' (Precision = 18) (Scale = 2) (DbType = Decimal), @p8='?' (Size = 40), @p9='?' (DbType = DateTime2), @p10='?' (Size = 500), @p11='?' (Size = 256) (DbType = AnsiString), @p12='?' (DbType = Boolean), @p13='?' (DbType = Boolean), @p14='?' (Size = 100), @p15='?' (DbType = Int32), @p16='?' (DbType = Int32), @p17='?' (Precision = 18) (Scale = 2) (DbType = Decimal), @p18='?' (DbType = Int32), @p19='?' (Size = 40), @p20='?' (DbType = DateTime2)"], CommandType='Text', CommandTimeout='30']"
+""SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [AppProducts] ([BuyingPrice], [CreatedBy], [CreatedDate], [Description], [Icon], [IsActive], [IsDiscontinued], [Name], [ParentId], [ProductCategoryId], [SellingPrice], [UnitsInStock], [UpdatedBy], [UpdatedDate])
+OUTPUT INSERTED.[Id]
+VALUES (@p7, @p8, @p9, @p10, @p11, @p12, @p13, @p14, @p15, @p16, @p17, @p18, @p19, @p20);" (0723d8ff)
+2024-10-30T15:09:22.6786398+07:00 0HN7ON7S4SLPU:00000001 [INF] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [a].[Id], [a].[BuyingPrice], [a].[CreatedBy], [a].[CreatedDate], [a].[Description], [a].[Icon], [a].[IsActive], [a].[IsDiscontinued], [a].[Name], [a].[ParentId], [a].[ProductCategoryId], [a].[SellingPrice], [a].[UnitsInStock], [a].[UpdatedBy], [a].[UpdatedDate]
+FROM [AppProducts] AS [a]" (0723d8ff)
+2024-10-30T15:09:26.7100420+07:00 0HN7ON7S4SLPV:00000001 [INF] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [a].[Id], [a].[BuyingPrice], [a].[CreatedBy], [a].[CreatedDate], [a].[Description], [a].[Icon], [a].[IsActive], [a].[IsDiscontinued], [a].[Name], [a].[ParentId], [a].[ProductCategoryId], [a].[SellingPrice], [a].[UnitsInStock], [a].[UpdatedBy], [a].[UpdatedDate]
+FROM [AppProducts] AS [a]" (0723d8ff)
+2024-10-30T15:09:37.9595353+07:00 0HN7ON7S4SLQ0:00000001 [INF] Executed DbCommand ("2"ms) [Parameters=["@__p_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [a].[Id], [a].[BuyingPrice], [a].[CreatedBy], [a].[CreatedDate], [a].[Description], [a].[Icon], [a].[IsActive], [a].[IsDiscontinued], [a].[Name], [a].[ParentId], [a].[ProductCategoryId], [a].[SellingPrice], [a].[UnitsInStock], [a].[UpdatedBy], [a].[UpdatedDate]
+FROM [AppProducts] AS [a]
+WHERE [a].[Id] = @__p_0" (0723d8ff)
+2024-10-30T15:09:37.9734543+07:00 0HN7ON7S4SLQ0:00000001 [INF] Executed DbCommand ("5"ms) [Parameters=["@p0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+DELETE FROM [AppProducts]
+OUTPUT 1
+WHERE [Id] = @p0;" (0723d8ff)
+2024-10-30T15:09:45.7650784+07:00 0HN7ON7S4SLQ1:00000001 [INF] Executed DbCommand ("2"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [a].[Id], [a].[BuyingPrice], [a].[CreatedBy], [a].[CreatedDate], [a].[Description], [a].[Icon], [a].[IsActive], [a].[IsDiscontinued], [a].[Name], [a].[ParentId], [a].[ProductCategoryId], [a].[SellingPrice], [a].[UnitsInStock], [a].[UpdatedBy], [a].[UpdatedDate]
+FROM [AppProducts] AS [a]" (0723d8ff)
+2024-10-30T15:09:51.2559817+07:00 0HN7ON7S4SLQ2:00000001 [INF] Executed DbCommand ("3"ms) [Parameters=["@__p_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [a].[Id], [a].[BuyingPrice], [a].[CreatedBy], [a].[CreatedDate], [a].[Description], [a].[Icon], [a].[IsActive], [a].[IsDiscontinued], [a].[Name], [a].[ParentId], [a].[ProductCategoryId], [a].[SellingPrice], [a].[UnitsInStock], [a].[UpdatedBy], [a].[UpdatedDate]
+FROM [AppProducts] AS [a]
+WHERE [a].[Id] = @__p_0" (0723d8ff)
+2024-10-30T15:23:56.8886493+07:00  [WRN] The WebRootPath was not found: "C:\Users\kuro1\source\repos\Quick Application3\Quick Application3\Quick_Application3.Server\wwwroot". Static files may be unavailable. (3ae2c740)
+2024-10-30T15:23:59.2439214+07:00  [INF] Executed DbCommand ("42"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT 1" (0723d8ff)
+2024-10-30T15:23:59.2923366+07:00  [INF] Executed DbCommand ("27"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT OBJECT_ID(N'[__EFMigrationsHistory]');" (0723d8ff)
+2024-10-30T15:23:59.3017889+07:00  [INF] Executed DbCommand ("5"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT 1" (0723d8ff)
+2024-10-30T15:23:59.3054835+07:00  [INF] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT OBJECT_ID(N'[__EFMigrationsHistory]');" (0723d8ff)
+2024-10-30T15:23:59.3289879+07:00  [INF] Executed DbCommand ("3"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];" (0723d8ff)
+2024-10-30T15:23:59.3544582+07:00  [INF] No migrations were applied. The database is already up to date. (503cba9d)
+2024-10-30T15:23:59.5906051+07:00  [INF] Executed DbCommand ("5"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AspNetUsers] AS [a]) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END" (0723d8ff)
+2024-10-30T15:23:59.6113209+07:00  [INF] Executed DbCommand ("2"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AppCustomers] AS [a]) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END" (0723d8ff)
+2024-10-30T15:23:59.7786924+07:00  [INF] Executed DbCommand ("24"ms) [Parameters=["@__identifier_0='?' (Size = 100)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [o].[Id], [o].[ApplicationType], [o].[ClientId], [o].[ClientSecret], [o].[ClientType], [o].[ConcurrencyToken], [o].[ConsentType], [o].[DisplayName], [o].[DisplayNames], [o].[JsonWebKeySet], [o].[Permissions], [o].[PostLogoutRedirectUris], [o].[Properties], [o].[RedirectUris], [o].[Requirements], [o].[Settings]
+FROM [OpenIddictApplications] AS [o]
+WHERE [o].[ClientId] = @__identifier_0" (0723d8ff)
+2024-10-30T15:23:59.8938992+07:00  [INF] Executed DbCommand ("1"ms) [Parameters=["@__identifier_0='?' (Size = 100)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [o].[Id], [o].[ApplicationType], [o].[ClientId], [o].[ClientSecret], [o].[ClientType], [o].[ConcurrencyToken], [o].[ConsentType], [o].[DisplayName], [o].[DisplayNames], [o].[JsonWebKeySet], [o].[Permissions], [o].[PostLogoutRedirectUris], [o].[Properties], [o].[RedirectUris], [o].[Requirements], [o].[Settings]
+FROM [OpenIddictApplications] AS [o]
+WHERE [o].[ClientId] = @__identifier_0" (0723d8ff)
+2024-10-30T15:23:59.9919551+07:00  [INF] Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl (d6ab0d5f)
+2024-10-30T15:23:59.9942647+07:00  [INF] Quartz Scheduler created (389d80b0)
+2024-10-30T15:23:59.9969244+07:00  [INF] JobFactory set to: Quartz.Simpl.MicrosoftDependencyInjectionJobFactory (17471663)
+2024-10-30T15:24:00.0001578+07:00  [INF] RAMJobStore initialized. (8c5a21db)
+2024-10-30T15:24:00.0024851+07:00  [INF] Quartz Scheduler 3.8.1.0 - 'QuartzScheduler' with instanceId 'NON_CLUSTERED' initialized (80014aa8)
+2024-10-30T15:24:00.0046635+07:00  [INF] Using thread pool 'Quartz.Simpl.DefaultThreadPool', size: 10 (7942d54d)
+2024-10-30T15:24:00.0068505+07:00  [INF] Using job store 'Quartz.Simpl.RAMJobStore', supports persistence: False, clustered: False (46d3fae1)
+2024-10-30T15:24:00.2001311+07:00  [WRN] The WebRootPath was not found: "C:\Users\kuro1\source\repos\Quick Application3\Quick Application3\Quick_Application3.Server\wwwroot". Static files may be unavailable. (3ae2c740)
+2024-10-30T15:24:00.3248404+07:00  [INF] Now listening on: "https://localhost:7085" (d826f4b8)
+2024-10-30T15:24:00.3275198+07:00  [INF] Now listening on: "http://localhost:5225" (d826f4b8)
+2024-10-30T15:24:00.3308101+07:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2024-10-30T15:24:00.3471507+07:00  [INF] Hosting environment: "Development" (bc5a1a4e)
+2024-10-30T15:24:00.3530494+07:00  [INF] Content root path: "C:\Users\kuro1\source\repos\Quick Application3\Quick Application3\Quick_Application3.Server" (cc26f24e)
+2024-10-30T15:24:00.3576340+07:00  [INF] Scheduler QuartzScheduler_$_NON_CLUSTERED started. (51b2cfb9)
+2024-10-30T15:27:00.1958639+07:00  [INF] Executed DbCommand ("17"ms) [Parameters=["@__p_1='?' (DbType = Int32), @__date_0='?' (DbType = DateTime2)"], CommandType='Text', CommandTimeout='30']"
+""DELETE FROM [o]
+FROM [OpenIddictTokens] AS [o]
+WHERE [o].[Id] IN (
+    SELECT TOP(@__p_1) [o0].[Id]
+    FROM [OpenIddictTokens] AS [o0]
+    LEFT JOIN [OpenIddictAuthorizations] AS [o1] ON [o0].[AuthorizationId] = [o1].[Id]
+    WHERE [o0].[CreationDate] < @__date_0 AND ((([o0].[Status] <> N'inactive' OR [o0].[Status] IS NULL) AND ([o0].[Status] <> N'valid' OR [o0].[Status] IS NULL)) OR ([o1].[Id] IS NOT NULL AND ([o1].[Status] <> N'valid' OR [o1].[Status] IS NULL)) OR [o0].[ExpirationDate] < GETUTCDATE())
+    ORDER BY [o0].[Id]
+)" (0723d8ff)
+2024-10-30T15:27:00.2342609+07:00  [INF] Executed DbCommand ("10"ms) [Parameters=["@__p_1='?' (DbType = Int32), @__date_0='?' (DbType = DateTime2)"], CommandType='Text', CommandTimeout='30']"
+""DELETE FROM [o]
+FROM [OpenIddictAuthorizations] AS [o]
+WHERE [o].[Id] IN (
+    SELECT TOP(@__p_1) [o0].[Id]
+    FROM [OpenIddictAuthorizations] AS [o0]
+    WHERE [o0].[CreationDate] < @__date_0 AND ([o0].[Status] <> N'valid' OR [o0].[Status] IS NULL OR ([o0].[Type] = N'ad-hoc' AND NOT EXISTS (
+        SELECT 1
+        FROM [OpenIddictTokens] AS [o1]
+        WHERE [o0].[Id] = [o1].[AuthorizationId])))
+    ORDER BY [o0].[Id]
+)" (0723d8ff)
+2024-10-30T15:32:36.4053372+07:00  [WRN] The WebRootPath was not found: "C:\Users\kuro1\source\repos\Quick Application3\Quick Application3\Quick_Application3.Server\wwwroot". Static files may be unavailable. (3ae2c740)
+2024-10-30T15:32:38.2533282+07:00  [INF] Executed DbCommand ("34"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT 1" (0723d8ff)
+2024-10-30T15:32:38.3056460+07:00  [INF] Executed DbCommand ("28"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT OBJECT_ID(N'[__EFMigrationsHistory]');" (0723d8ff)
+2024-10-30T15:32:38.3108971+07:00  [INF] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT 1" (0723d8ff)
+2024-10-30T15:32:38.3143592+07:00  [INF] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT OBJECT_ID(N'[__EFMigrationsHistory]');" (0723d8ff)
+2024-10-30T15:32:38.3382421+07:00  [INF] Executed DbCommand ("3"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];" (0723d8ff)
+2024-10-30T15:32:38.3640034+07:00  [INF] No migrations were applied. The database is already up to date. (503cba9d)
+2024-10-30T15:32:38.6380794+07:00  [INF] Executed DbCommand ("5"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AspNetUsers] AS [a]) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END" (0723d8ff)
+2024-10-30T15:32:38.6512281+07:00  [INF] Executed DbCommand ("2"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AppCustomers] AS [a]) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END" (0723d8ff)
+2024-10-30T15:32:38.7861402+07:00  [INF] Executed DbCommand ("24"ms) [Parameters=["@__identifier_0='?' (Size = 100)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [o].[Id], [o].[ApplicationType], [o].[ClientId], [o].[ClientSecret], [o].[ClientType], [o].[ConcurrencyToken], [o].[ConsentType], [o].[DisplayName], [o].[DisplayNames], [o].[JsonWebKeySet], [o].[Permissions], [o].[PostLogoutRedirectUris], [o].[Properties], [o].[RedirectUris], [o].[Requirements], [o].[Settings]
+FROM [OpenIddictApplications] AS [o]
+WHERE [o].[ClientId] = @__identifier_0" (0723d8ff)
+2024-10-30T15:32:38.9023091+07:00  [INF] Executed DbCommand ("1"ms) [Parameters=["@__identifier_0='?' (Size = 100)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [o].[Id], [o].[ApplicationType], [o].[ClientId], [o].[ClientSecret], [o].[ClientType], [o].[ConcurrencyToken], [o].[ConsentType], [o].[DisplayName], [o].[DisplayNames], [o].[JsonWebKeySet], [o].[Permissions], [o].[PostLogoutRedirectUris], [o].[Properties], [o].[RedirectUris], [o].[Requirements], [o].[Settings]
+FROM [OpenIddictApplications] AS [o]
+WHERE [o].[ClientId] = @__identifier_0" (0723d8ff)
+2024-10-30T15:32:39.0847236+07:00  [INF] Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl (d6ab0d5f)
+2024-10-30T15:32:39.0869764+07:00  [INF] Quartz Scheduler created (389d80b0)
+2024-10-30T15:32:39.0894129+07:00  [INF] JobFactory set to: Quartz.Simpl.MicrosoftDependencyInjectionJobFactory (17471663)
+2024-10-30T15:32:39.0923704+07:00  [INF] RAMJobStore initialized. (8c5a21db)
+2024-10-30T15:32:39.0958593+07:00  [INF] Quartz Scheduler 3.8.1.0 - 'QuartzScheduler' with instanceId 'NON_CLUSTERED' initialized (80014aa8)
+2024-10-30T15:32:39.0987985+07:00  [INF] Using thread pool 'Quartz.Simpl.DefaultThreadPool', size: 10 (7942d54d)
+2024-10-30T15:32:39.1013705+07:00  [INF] Using job store 'Quartz.Simpl.RAMJobStore', supports persistence: False, clustered: False (46d3fae1)
+2024-10-30T15:32:39.3325298+07:00  [WRN] The WebRootPath was not found: "C:\Users\kuro1\source\repos\Quick Application3\Quick Application3\Quick_Application3.Server\wwwroot". Static files may be unavailable. (3ae2c740)
+2024-10-30T15:32:39.4395176+07:00  [INF] Now listening on: "https://localhost:7085" (d826f4b8)
+2024-10-30T15:32:39.4425767+07:00  [INF] Now listening on: "http://localhost:5225" (d826f4b8)
+2024-10-30T15:32:39.4462504+07:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2024-10-30T15:32:39.4493520+07:00  [INF] Hosting environment: "Development" (bc5a1a4e)
+2024-10-30T15:32:39.4802343+07:00  [INF] Content root path: "C:\Users\kuro1\source\repos\Quick Application3\Quick Application3\Quick_Application3.Server" (cc26f24e)
+2024-10-30T15:32:39.4865939+07:00  [INF] Scheduler QuartzScheduler_$_NON_CLUSTERED started. (51b2cfb9)
+2024-10-30T15:33:10.2241150+07:00 0HN7ONLL75N52:00000001 [INF] Executed DbCommand ("4"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [a].[Id], [a].[BuyingPrice], [a].[CreatedBy], [a].[CreatedDate], [a].[Description], [a].[Icon], [a].[IsActive], [a].[IsDiscontinued], [a].[Name], [a].[ParentId], [a].[ProductCategoryId], [a].[SellingPrice], [a].[UnitsInStock], [a].[UpdatedBy], [a].[UpdatedDate]
+FROM [AppProducts] AS [a]" (0723d8ff)
+2024-10-30T15:35:39.3259807+07:00  [INF] Executed DbCommand ("14"ms) [Parameters=["@__p_1='?' (DbType = Int32), @__date_0='?' (DbType = DateTime2)"], CommandType='Text', CommandTimeout='30']"
+""DELETE FROM [o]
+FROM [OpenIddictTokens] AS [o]
+WHERE [o].[Id] IN (
+    SELECT TOP(@__p_1) [o0].[Id]
+    FROM [OpenIddictTokens] AS [o0]
+    LEFT JOIN [OpenIddictAuthorizations] AS [o1] ON [o0].[AuthorizationId] = [o1].[Id]
+    WHERE [o0].[CreationDate] < @__date_0 AND ((([o0].[Status] <> N'inactive' OR [o0].[Status] IS NULL) AND ([o0].[Status] <> N'valid' OR [o0].[Status] IS NULL)) OR ([o1].[Id] IS NOT NULL AND ([o1].[Status] <> N'valid' OR [o1].[Status] IS NULL)) OR [o0].[ExpirationDate] < GETUTCDATE())
+    ORDER BY [o0].[Id]
+)" (0723d8ff)
+2024-10-30T15:35:39.3557971+07:00  [INF] Executed DbCommand ("8"ms) [Parameters=["@__p_1='?' (DbType = Int32), @__date_0='?' (DbType = DateTime2)"], CommandType='Text', CommandTimeout='30']"
+""DELETE FROM [o]
+FROM [OpenIddictAuthorizations] AS [o]
+WHERE [o].[Id] IN (
+    SELECT TOP(@__p_1) [o0].[Id]
+    FROM [OpenIddictAuthorizations] AS [o0]
+    WHERE [o0].[CreationDate] < @__date_0 AND ([o0].[Status] <> N'valid' OR [o0].[Status] IS NULL OR ([o0].[Type] = N'ad-hoc' AND NOT EXISTS (
+        SELECT 1
+        FROM [OpenIddictTokens] AS [o1]
+        WHERE [o0].[Id] = [o1].[AuthorizationId])))
+    ORDER BY [o0].[Id]
+)" (0723d8ff)
+2024-10-30T15:46:24.3183944+07:00  [WRN] The WebRootPath was not found: "C:\Users\kuro1\source\repos\Quick Application3\Quick Application3\Quick_Application3.Server\wwwroot". Static files may be unavailable. (3ae2c740)
+2024-10-30T15:46:26.7208564+07:00  [INF] Executed DbCommand ("36"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT 1" (0723d8ff)
+2024-10-30T15:46:26.7661709+07:00  [INF] Executed DbCommand ("28"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT OBJECT_ID(N'[__EFMigrationsHistory]');" (0723d8ff)
+2024-10-30T15:46:26.7715471+07:00  [INF] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT 1" (0723d8ff)
+2024-10-30T15:46:26.7749100+07:00  [INF] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT OBJECT_ID(N'[__EFMigrationsHistory]');" (0723d8ff)
+2024-10-30T15:46:26.7950637+07:00  [INF] Executed DbCommand ("3"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];" (0723d8ff)
+2024-10-30T15:46:26.8192477+07:00  [INF] No migrations were applied. The database is already up to date. (503cba9d)
+2024-10-30T15:46:27.0469845+07:00  [INF] Executed DbCommand ("5"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AspNetUsers] AS [a]) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END" (0723d8ff)
+2024-10-30T15:46:27.0642545+07:00  [INF] Executed DbCommand ("2"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AppCustomers] AS [a]) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END" (0723d8ff)
+2024-10-30T15:46:27.1933435+07:00  [INF] Executed DbCommand ("23"ms) [Parameters=["@__identifier_0='?' (Size = 100)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [o].[Id], [o].[ApplicationType], [o].[ClientId], [o].[ClientSecret], [o].[ClientType], [o].[ConcurrencyToken], [o].[ConsentType], [o].[DisplayName], [o].[DisplayNames], [o].[JsonWebKeySet], [o].[Permissions], [o].[PostLogoutRedirectUris], [o].[Properties], [o].[RedirectUris], [o].[Requirements], [o].[Settings]
+FROM [OpenIddictApplications] AS [o]
+WHERE [o].[ClientId] = @__identifier_0" (0723d8ff)
+2024-10-30T15:46:27.3005609+07:00  [INF] Executed DbCommand ("1"ms) [Parameters=["@__identifier_0='?' (Size = 100)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [o].[Id], [o].[ApplicationType], [o].[ClientId], [o].[ClientSecret], [o].[ClientType], [o].[ConcurrencyToken], [o].[ConsentType], [o].[DisplayName], [o].[DisplayNames], [o].[JsonWebKeySet], [o].[Permissions], [o].[PostLogoutRedirectUris], [o].[Properties], [o].[RedirectUris], [o].[Requirements], [o].[Settings]
+FROM [OpenIddictApplications] AS [o]
+WHERE [o].[ClientId] = @__identifier_0" (0723d8ff)
+2024-10-30T15:46:27.3972701+07:00  [INF] Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl (d6ab0d5f)
+2024-10-30T15:46:27.4000454+07:00  [INF] Quartz Scheduler created (389d80b0)
+2024-10-30T15:46:27.4027783+07:00  [INF] JobFactory set to: Quartz.Simpl.MicrosoftDependencyInjectionJobFactory (17471663)
+2024-10-30T15:46:27.4056048+07:00  [INF] RAMJobStore initialized. (8c5a21db)
+2024-10-30T15:46:27.4080280+07:00  [INF] Quartz Scheduler 3.8.1.0 - 'QuartzScheduler' with instanceId 'NON_CLUSTERED' initialized (80014aa8)
+2024-10-30T15:46:27.4106439+07:00  [INF] Using thread pool 'Quartz.Simpl.DefaultThreadPool', size: 10 (7942d54d)
+2024-10-30T15:46:27.4136318+07:00  [INF] Using job store 'Quartz.Simpl.RAMJobStore', supports persistence: False, clustered: False (46d3fae1)
+2024-10-30T15:46:27.5951108+07:00  [WRN] The WebRootPath was not found: "C:\Users\kuro1\source\repos\Quick Application3\Quick Application3\Quick_Application3.Server\wwwroot". Static files may be unavailable. (3ae2c740)
+2024-10-30T15:46:27.6941876+07:00  [INF] Now listening on: "https://localhost:7085" (d826f4b8)
+2024-10-30T15:46:27.6963968+07:00  [INF] Now listening on: "http://localhost:5225" (d826f4b8)
+2024-10-30T15:46:27.7000717+07:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2024-10-30T15:46:27.7027435+07:00  [INF] Hosting environment: "Development" (bc5a1a4e)
+2024-10-30T15:46:27.7053207+07:00  [INF] Content root path: "C:\Users\kuro1\source\repos\Quick Application3\Quick Application3\Quick_Application3.Server" (cc26f24e)
+2024-10-30T15:46:27.7096492+07:00  [INF] Scheduler QuartzScheduler_$_NON_CLUSTERED started. (51b2cfb9)
+2024-10-30T15:47:27.7405156+07:00  [INF] Executed DbCommand ("14"ms) [Parameters=["@__p_1='?' (DbType = Int32), @__date_0='?' (DbType = DateTime2)"], CommandType='Text', CommandTimeout='30']"
+""DELETE FROM [o]
+FROM [OpenIddictTokens] AS [o]
+WHERE [o].[Id] IN (
+    SELECT TOP(@__p_1) [o0].[Id]
+    FROM [OpenIddictTokens] AS [o0]
+    LEFT JOIN [OpenIddictAuthorizations] AS [o1] ON [o0].[AuthorizationId] = [o1].[Id]
+    WHERE [o0].[CreationDate] < @__date_0 AND ((([o0].[Status] <> N'inactive' OR [o0].[Status] IS NULL) AND ([o0].[Status] <> N'valid' OR [o0].[Status] IS NULL)) OR ([o1].[Id] IS NOT NULL AND ([o1].[Status] <> N'valid' OR [o1].[Status] IS NULL)) OR [o0].[ExpirationDate] < GETUTCDATE())
+    ORDER BY [o0].[Id]
+)" (0723d8ff)
+2024-10-30T15:47:27.7761370+07:00  [INF] Executed DbCommand ("9"ms) [Parameters=["@__p_1='?' (DbType = Int32), @__date_0='?' (DbType = DateTime2)"], CommandType='Text', CommandTimeout='30']"
+""DELETE FROM [o]
+FROM [OpenIddictAuthorizations] AS [o]
+WHERE [o].[Id] IN (
+    SELECT TOP(@__p_1) [o0].[Id]
+    FROM [OpenIddictAuthorizations] AS [o0]
+    WHERE [o0].[CreationDate] < @__date_0 AND ([o0].[Status] <> N'valid' OR [o0].[Status] IS NULL OR ([o0].[Type] = N'ad-hoc' AND NOT EXISTS (
+        SELECT 1
+        FROM [OpenIddictTokens] AS [o1]
+        WHERE [o0].[Id] = [o1].[AuthorizationId])))
+    ORDER BY [o0].[Id]
+)" (0723d8ff)
+2024-10-30T15:55:53.8990518+07:00  [WRN] The WebRootPath was not found: "C:\Users\kuro1\source\repos\Quick Application3\Quick Application3\Quick_Application3.Server\wwwroot". Static files may be unavailable. (3ae2c740)
+2024-10-30T15:55:56.4567667+07:00  [INF] Executed DbCommand ("33"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT 1" (0723d8ff)
+2024-10-30T15:55:56.5068306+07:00  [INF] Executed DbCommand ("33"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT OBJECT_ID(N'[__EFMigrationsHistory]');" (0723d8ff)
+2024-10-30T15:55:56.5116918+07:00  [INF] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT 1" (0723d8ff)
+2024-10-30T15:55:56.5154693+07:00  [INF] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT OBJECT_ID(N'[__EFMigrationsHistory]');" (0723d8ff)
+2024-10-30T15:55:56.5364835+07:00  [INF] Executed DbCommand ("3"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];" (0723d8ff)
+2024-10-30T15:55:56.5652505+07:00  [INF] No migrations were applied. The database is already up to date. (503cba9d)
+2024-10-30T15:55:56.8104917+07:00  [INF] Executed DbCommand ("5"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AspNetUsers] AS [a]) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END" (0723d8ff)
+2024-10-30T15:55:56.8289440+07:00  [INF] Executed DbCommand ("3"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AppCustomers] AS [a]) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END" (0723d8ff)
+2024-10-30T15:55:56.9598327+07:00  [INF] Executed DbCommand ("22"ms) [Parameters=["@__identifier_0='?' (Size = 100)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [o].[Id], [o].[ApplicationType], [o].[ClientId], [o].[ClientSecret], [o].[ClientType], [o].[ConcurrencyToken], [o].[ConsentType], [o].[DisplayName], [o].[DisplayNames], [o].[JsonWebKeySet], [o].[Permissions], [o].[PostLogoutRedirectUris], [o].[Properties], [o].[RedirectUris], [o].[Requirements], [o].[Settings]
+FROM [OpenIddictApplications] AS [o]
+WHERE [o].[ClientId] = @__identifier_0" (0723d8ff)
+2024-10-30T15:55:57.0662774+07:00  [INF] Executed DbCommand ("1"ms) [Parameters=["@__identifier_0='?' (Size = 100)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [o].[Id], [o].[ApplicationType], [o].[ClientId], [o].[ClientSecret], [o].[ClientType], [o].[ConcurrencyToken], [o].[ConsentType], [o].[DisplayName], [o].[DisplayNames], [o].[JsonWebKeySet], [o].[Permissions], [o].[PostLogoutRedirectUris], [o].[Properties], [o].[RedirectUris], [o].[Requirements], [o].[Settings]
+FROM [OpenIddictApplications] AS [o]
+WHERE [o].[ClientId] = @__identifier_0" (0723d8ff)
+2024-10-30T15:55:57.1653471+07:00  [INF] Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl (d6ab0d5f)
+2024-10-30T15:55:57.1683983+07:00  [INF] Quartz Scheduler created (389d80b0)
+2024-10-30T15:55:57.1709943+07:00  [INF] JobFactory set to: Quartz.Simpl.MicrosoftDependencyInjectionJobFactory (17471663)
+2024-10-30T15:55:57.1734228+07:00  [INF] RAMJobStore initialized. (8c5a21db)
+2024-10-30T15:55:57.1758365+07:00  [INF] Quartz Scheduler 3.8.1.0 - 'QuartzScheduler' with instanceId 'NON_CLUSTERED' initialized (80014aa8)
+2024-10-30T15:55:57.1785500+07:00  [INF] Using thread pool 'Quartz.Simpl.DefaultThreadPool', size: 10 (7942d54d)
+2024-10-30T15:55:57.1812224+07:00  [INF] Using job store 'Quartz.Simpl.RAMJobStore', supports persistence: False, clustered: False (46d3fae1)
+2024-10-30T15:55:57.3672052+07:00  [WRN] The WebRootPath was not found: "C:\Users\kuro1\source\repos\Quick Application3\Quick Application3\Quick_Application3.Server\wwwroot". Static files may be unavailable. (3ae2c740)
+2024-10-30T15:55:57.4651081+07:00  [INF] Now listening on: "https://localhost:7085" (d826f4b8)
+2024-10-30T15:55:57.4679579+07:00  [INF] Now listening on: "http://localhost:5225" (d826f4b8)
+2024-10-30T15:55:57.4712348+07:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2024-10-30T15:55:57.4745400+07:00  [INF] Hosting environment: "Development" (bc5a1a4e)
+2024-10-30T15:55:57.4766411+07:00  [INF] Content root path: "C:\Users\kuro1\source\repos\Quick Application3\Quick Application3\Quick_Application3.Server" (cc26f24e)
+2024-10-30T15:55:57.4814729+07:00  [INF] Scheduler QuartzScheduler_$_NON_CLUSTERED started. (51b2cfb9)
+2024-10-30T15:56:34.1556339+07:00 0HN7OO2LPFFB2:00000001 [INF] Executed DbCommand ("5"ms) [Parameters=["@__p_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [a].[Id], [a].[BuyingPrice], [a].[CreatedBy], [a].[CreatedDate], [a].[Description], [a].[Icon], [a].[IsActive], [a].[IsDiscontinued], [a].[Name], [a].[ParentId], [a].[ProductCategoryId], [a].[SellingPrice], [a].[UnitsInStock], [a].[UpdatedBy], [a].[UpdatedDate]
+FROM [AppProducts] AS [a]
+WHERE [a].[Id] = @__p_0" (0723d8ff)
+2024-10-30T15:56:41.9467336+07:00 0HN7OO2LPFFB3:00000001 [INF] Executed DbCommand ("1"ms) [Parameters=["@__p_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [a].[Id], [a].[BuyingPrice], [a].[CreatedBy], [a].[CreatedDate], [a].[Description], [a].[Icon], [a].[IsActive], [a].[IsDiscontinued], [a].[Name], [a].[ParentId], [a].[ProductCategoryId], [a].[SellingPrice], [a].[UnitsInStock], [a].[UpdatedBy], [a].[UpdatedDate]
+FROM [AppProducts] AS [a]
+WHERE [a].[Id] = @__p_0" (0723d8ff)
+2024-10-30T15:56:42.1149660+07:00 0HN7OO2LPFFB3:00000001 [INF] Executed DbCommand ("6"ms) [Parameters=["@p6='?' (DbType = Int32), @p0='?' (Precision = 18) (Scale = 2) (DbType = Decimal), @p1='?' (Size = 500), @p2='?' (Size = 100), @p3='?' (Precision = 18) (Scale = 2) (DbType = Decimal), @p4='?' (DbType = Int32), @p5='?' (DbType = DateTime2)"], CommandType='Text', CommandTimeout='30']"
+""SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+UPDATE [AppProducts] SET [BuyingPrice] = @p0, [Description] = @p1, [Name] = @p2, [SellingPrice] = @p3, [UnitsInStock] = @p4, [UpdatedDate] = @p5
+OUTPUT 1
+WHERE [Id] = @p6;" (0723d8ff)
+2024-10-30T15:56:51.7658991+07:00 0HN7OO2LPFFB4:00000001 [INF] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [a].[Id], [a].[BuyingPrice], [a].[CreatedBy], [a].[CreatedDate], [a].[Description], [a].[Icon], [a].[IsActive], [a].[IsDiscontinued], [a].[Name], [a].[ParentId], [a].[ProductCategoryId], [a].[SellingPrice], [a].[UnitsInStock], [a].[UpdatedBy], [a].[UpdatedDate]
+FROM [AppProducts] AS [a]" (0723d8ff)
+2024-10-30T15:57:57.2991384+07:00  [INF] Executed DbCommand ("12"ms) [Parameters=["@__p_1='?' (DbType = Int32), @__date_0='?' (DbType = DateTime2)"], CommandType='Text', CommandTimeout='30']"
+""DELETE FROM [o]
+FROM [OpenIddictTokens] AS [o]
+WHERE [o].[Id] IN (
+    SELECT TOP(@__p_1) [o0].[Id]
+    FROM [OpenIddictTokens] AS [o0]
+    LEFT JOIN [OpenIddictAuthorizations] AS [o1] ON [o0].[AuthorizationId] = [o1].[Id]
+    WHERE [o0].[CreationDate] < @__date_0 AND ((([o0].[Status] <> N'inactive' OR [o0].[Status] IS NULL) AND ([o0].[Status] <> N'valid' OR [o0].[Status] IS NULL)) OR ([o1].[Id] IS NOT NULL AND ([o1].[Status] <> N'valid' OR [o1].[Status] IS NULL)) OR [o0].[ExpirationDate] < GETUTCDATE())
+    ORDER BY [o0].[Id]
+)" (0723d8ff)
+2024-10-30T15:57:57.3285045+07:00  [INF] Executed DbCommand ("9"ms) [Parameters=["@__p_1='?' (DbType = Int32), @__date_0='?' (DbType = DateTime2)"], CommandType='Text', CommandTimeout='30']"
+""DELETE FROM [o]
+FROM [OpenIddictAuthorizations] AS [o]
+WHERE [o].[Id] IN (
+    SELECT TOP(@__p_1) [o0].[Id]
+    FROM [OpenIddictAuthorizations] AS [o0]
+    WHERE [o0].[CreationDate] < @__date_0 AND ([o0].[Status] <> N'valid' OR [o0].[Status] IS NULL OR ([o0].[Type] = N'ad-hoc' AND NOT EXISTS (
+        SELECT 1
+        FROM [OpenIddictTokens] AS [o1]
+        WHERE [o0].[Id] = [o1].[AuthorizationId])))
+    ORDER BY [o0].[Id]
+)" (0723d8ff)

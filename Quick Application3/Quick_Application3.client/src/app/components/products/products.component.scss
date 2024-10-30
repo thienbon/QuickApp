@@ -1,1 +1,64 @@
-﻿
+.boxshadow {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), 0 6px 20px rgba(0, 0, 0, 0.19);
+  padding: 10px;
+  background: white;
+}
+.modal-backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  width: 400px;
+  max-width: 90%;
+}
+
+.boxshadow::after {
+  content: '';
+  position: absolute;
+  z-index: -1; /* hide shadow behind image */
+  box-shadow: 0 15px 20px rgba(0, 0, 0, 0.3);
+  width: 70%;
+  left: 15%; /* one half of the remaining 30% */
+  height: 100px;
+  bottom: 0;
+}
+
+.card-header {
+  padding: 0.75rem 1.25rem;
+
+  .btn-close {
+    height: 1rem;
+  }
+}
+
+.last-control-group {
+  margin-bottom: -0.75rem;
+}
+
+.h-90 {
+  height: 90%;
+}
+
+
+@media (min-width: 768px) {
+  .login-container {
+    width: 670px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .login-container {
+    width: 700px;
+  }
+}

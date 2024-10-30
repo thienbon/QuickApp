@@ -13,6 +13,11 @@ namespace Quick_Application3.Core.Services.Shop
 
             Task<Product?> GetProductByIdAsync(int productId);
             Task<List<Product>> GetAllProductsAsync();
+        Task<Product> CreateProductAsync(Product product);
+        Task DeleteProductAsync(int id);
+        Task<Product> UpdateProductAsync(int id, Product product);
+
+
 
 
     }
