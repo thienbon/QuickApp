@@ -1,0 +1,23 @@
+{
+  "Version": 1,
+  "Hash": "/l/yZHgVZ7WAnhRk2F35HOTnpRv3/ic0skw8mDzRkEQ=",
+  "Source": "Quick_Application3.Server",
+  "BasePath": "_content/Quick_Application3.Server",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [
+    {
+      "Identity": "C:\\Users\\kuro1\\source\\repos\\Quick Application3\\Quick Application3\\Quick_Application3.client\\Quick_Application3.client.esproj",
+      "Version": 2,
+      "Source": "Quick_Application3.client",
+      "GetPublishAssetsTargets": "GetCurrentProjectPublishStaticWebAssetItems",
+      "AdditionalPublishProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalPublishPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier;SelfContained",
+      "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
+      "AdditionalBuildProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier;SelfContained"
+    }
+  ],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

@@ -1,0 +1,99 @@
+// ... keeping existing boxshadow styles ...
+
+@media (min-width: 768px) {
+  .login-container {
+    width: 670px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .login-container {
+    width: 700px;
+  }
+}
+
+.login-container {
+  max-width: 500px; // Increased from 400px
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.login-box {
+  background: white;
+  padding: 40px; // Increased from 25px
+  border-radius: 12px;
+  min-height: 500px; // Added minimum height
+  width: 100%;
+}
+
+.login-title {
+  text-align: center;
+  margin-bottom: 35px; // Increased from 25px
+  color: #333;
+  font-size: 24px; // Added font size
+  font-weight: bold;
+}
+
+.form-group {
+  margin-bottom: 2rem; // Increased from 1rem
+}
+
+.input-group {
+  margin-bottom: 0.5rem; // Added spacing between input and error message
+}
+
+.input-group-text {
+  background-color: #f8f9fa;
+  padding: 12px 15px;
+}
+
+.form-control {
+  padding: 12px;
+  height: auto; // This helps prevent text from being cut off
+  font-size: 16px;
+}
+
+.btn-block {
+  width: 100%;
+  padding: 12px;
+  font-size: 16px;
+  margin: 25px 0; // Added more vertical spacing
+}
+
+.vertical-center {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+.invalid-feedback {
+  font-size: 80%;
+  color: #dc3545;
+  display: block; // Ensures error messages don't collapse
+  margin-top: 5px;
+  clear: both; // Prevents overlap with other elements
+}
+
+.checkbox {
+  margin: 15px 0; // Increased margins
+}
+
+.alert {
+  margin: 20px 0; // Increased margins
+}
+
+// Add styles for signup link
+.signup-link {
+  text-align: center;
+  margin-top: 20px;
+  padding-top: 20px;
+  border-top: 1px solid #eee;
+}
+.alert-danger {
+  margin-top: 10px;
+  padding: 10px;
+  border-radius: 4px;
+  background-color: #f8d7da;
+  border: 1px solid #f5c6cb;
+  color: #721c24;
+}

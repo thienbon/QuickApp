@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Quick_Application3.Server.props" />
+</Project>

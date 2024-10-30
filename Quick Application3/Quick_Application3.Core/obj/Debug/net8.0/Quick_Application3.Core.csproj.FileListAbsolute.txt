@@ -1,0 +1,12 @@
+C:\Users\kuro1\source\repos\Quick Application3\Quick Application3\Quick_Application3.Core\bin\Debug\net8.0\Quick_Application3.Core.deps.json
+C:\Users\kuro1\source\repos\Quick Application3\Quick Application3\Quick_Application3.Core\bin\Debug\net8.0\Quick_Application3.Core.dll
+C:\Users\kuro1\source\repos\Quick Application3\Quick Application3\Quick_Application3.Core\bin\Debug\net8.0\Quick_Application3.Core.pdb
+C:\Users\kuro1\source\repos\Quick Application3\Quick Application3\Quick_Application3.Core\obj\Debug\net8.0\Quick_Application3.Core.csproj.AssemblyReference.cache
+C:\Users\kuro1\source\repos\Quick Application3\Quick Application3\Quick_Application3.Core\obj\Debug\net8.0\Quick_Application3.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kuro1\source\repos\Quick Application3\Quick Application3\Quick_Application3.Core\obj\Debug\net8.0\Quick_Application3.Core.AssemblyInfoInputs.cache
+C:\Users\kuro1\source\repos\Quick Application3\Quick Application3\Quick_Application3.Core\obj\Debug\net8.0\Quick_Application3.Core.AssemblyInfo.cs
+C:\Users\kuro1\source\repos\Quick Application3\Quick Application3\Quick_Application3.Core\obj\Debug\net8.0\Quick_Application3.Core.csproj.CoreCompileInputs.cache
+C:\Users\kuro1\source\repos\Quick Application3\Quick Application3\Quick_Application3.Core\obj\Debug\net8.0\Quick_Application3.Core.dll
+C:\Users\kuro1\source\repos\Quick Application3\Quick Application3\Quick_Application3.Core\obj\Debug\net8.0\refint\Quick_Application3.Core.dll
+C:\Users\kuro1\source\repos\Quick Application3\Quick Application3\Quick_Application3.Core\obj\Debug\net8.0\Quick_Application3.Core.pdb
+C:\Users\kuro1\source\repos\Quick Application3\Quick Application3\Quick_Application3.Core\obj\Debug\net8.0\ref\Quick_Application3.Core.dll

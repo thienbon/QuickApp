@@ -1,0 +1,32 @@
+<header class="pageHeader">
+  <h3><i class="fa fa-truck fa-lg page-caption" aria-hidden="true"></i> {{'pageHeader.Products' | translate}}</h3>
+</header>
+
+<div>
+  <h2>Search Product by ID</h2>
+  <input type="number"
+         [(ngModel)]="searchId"
+         placeholder="Enter product ID" />
+  <button (click)="searchProductById()">Search</button>
+
+  <div *ngIf="searchedProduct">
+    <h3>Product Details</h3>
+    <p><strong>Name:</strong> {{ searchedProduct.name }}</p>
+    <p><strong>Description:</strong> {{ searchedProduct.description }}</p>
+    <p><strong>Price:</strong> {{ searchedProduct.sellingPrice }}</p>
+    <p><strong>Units in Stock:</strong> {{ searchedProduct.unitsInStock }}</p>
+  </div>
+  <div *ngIf="searchedProduct === null">
+    <p>No product found with this ID.</p>
+  </div>
+</div>
+
+<div>
+  <!-- Existing list of all products -->
+  <h2>All Products</h2>
+  <ul>
+    <li *ngFor="let product of products">
+      {{ product.name }} - ${{ product.sellingPrice }}
+    </li>
+  </ul>
+</div>
