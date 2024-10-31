@@ -11,24 +11,16 @@
           <option value="name">Search by Name</option>
           <option value="id">Search by ID</option>
         </select>
-        <input 
-          [type]="searchType === 'id' ? 'number' : 'text'"
-          class="form-control"
-          [(ngModel)]="searchTerm"
-          [placeholder]="searchType === 'name' ? 'Enter product name' : 'Enter product ID'"
-          (input)="searchType === 'name' ? search() : null"
-        />
-        <button 
-          class="btn btn-primary"
-          (click)="search()"
-          [disabled]="!searchTerm">
-          Search
-        </button>
+        <input [type]="searchType === 'id' ? 'number' : 'text'"
+               class="form-control"
+               [(ngModel)]="searchTerm"
+               [placeholder]="searchType === 'name' ? 'Enter product name' : 'Enter product ID'"
+               (input)="searchType === 'name' ? search() : null" />
+        <button class="btn btn-primary" (click)="search()" [disabled]="!searchTerm">Search</button>
       </div>
     </div>
   </div>
 </div>
-
 
 <div *ngIf="filteredProducts.length > 0; else noProducts">
   <table class="table table-striped table-hover mt-3 boxshadow">
@@ -43,6 +35,7 @@
         <th>Active</th>
         <th>Discontinued</th>
         <th>Category</th>
+        <th>Actions</th>
       </tr>
     </thead>
     <tbody>
@@ -56,6 +49,10 @@
         <td>{{ product.isActive ? 'Yes' : 'No' }}</td>
         <td>{{ product.isDiscontinued ? 'Yes' : 'No' }}</td>
         <td>{{ product.productCategoryName }}</td>
+        <td>
+          <button class="btn btn-warning btn-sm" (click)="openUpdateProductForm(product)">Update</button>
+          <button class="btn btn-danger btn-sm" (click)="deleteProduct(product.id)">Delete</button>
+        </td>
       </tr>
     </tbody>
   </table>
@@ -65,68 +62,63 @@
   <p>No products available</p>
 </ng-template>
 
-
+<!-- New Product Form -->
 <div class="boxshadow mt-4 p-3">
   <h3>Add New Product</h3>
   <form [formGroup]="productForm" (ngSubmit)="addProduct()" class="row g-3">
     <div class="col-md-6">
-      <label class="form-label">Name</label>
-      <input class="form-control" formControlName="name" required />
-      <small class="text-danger" *ngIf="productForm.get('name')?.touched && productForm.get('name')?.invalid">
-        Name is required
-      </small>
+      <label>Name</label>
+      <input formControlName="name" class="form-control" required />
     </div>
-
     <div class="col-md-6">
-      <label class="form-label">Description</label>
-      <input class="form-control" formControlName="description" />
+      <label>Description</label>
+      <input formControlName="description" class="form-control" />
     </div>
-
-    <div class="col-md-4">
-      <label class="form-label">Buying Price</label>
-      <input class="form-control" type="number" formControlName="buyingPrice" required min="0" />
-      <small class="text-danger" *ngIf="productForm.get('buyingPrice')?.touched && productForm.get('buyingPrice')?.invalid">
-        Valid buying price is required
-      </small>
+    <div class="col-md-6">
+      <label>Buying Price</label>
+      <input type="number" formControlName="buyingPrice" class="form-control" required min="0" />
     </div>
-
-    <div class="col-md-4">
-      <label class="form-label">Selling Price</label>
-      <input class="form-control" type="number" formControlName="sellingPrice" required min="0" />
-      <small class="text-danger" *ngIf="productForm.get('sellingPrice')?.touched && productForm.get('sellingPrice')?.invalid">
-        Valid selling price is required
-      </small>
+    <div class="col-md-6">
+      <label>Selling Price</label>
+      <input type="number" formControlName="sellingPrice" class="form-control" required min="0" />
     </div>
-
-    <div class="col-md-4">
-      <label class="form-label">Units in Stock</label>
-      <input class="form-control" type="number" formControlName="unitsInStock" required min="0" />
-      <small class="text-danger" *ngIf="productForm.get('unitsInStock')?.touched && productForm.get('unitsInStock')?.invalid">
-        Valid units in stock is required
-      </small>
+    <div class="col-md-6">
+      <label>Units in Stock</label>
+      <input type="number" formControlName="unitsInStock" class="form-control" required min="0" />
     </div>
-
-    <div class="col-md-4">
-      <label class="form-label">Category</label>
-      <input class="form-control" formControlName="productCategoryName" />
-    </div>
-
-    <div class="col-md-4">
-      <div class="form-check mt-4">
-        <input class="form-check-input" type="checkbox" formControlName="isActive" id="isActive">
-        <label class="form-check-label" for="isActive">Active</label>
-      </div>
-    </div>
-
-    <div class="col-md-4">
-      <div class="form-check mt-4">
-        <input class="form-check-input" type="checkbox" formControlName="isDiscontinued" id="isDiscontinued">
-        <label class="form-check-label" for="isDiscontinued">Discontinued</label>
-      </div>
-    </div>
-
     <div class="col-12">
-      <button type="submit" [disabled]="productForm.invalid" class="btn btn-success">Create Product</button>
+      <button type="submit" [disabled]="productForm.invalid" class="btn btn-success">Add Product</button>
+    </div>
+  </form>
+</div>
+
+<!-- Update Product Form -->
+<div *ngIf="showUpdateProductForm" class="boxshadow mt-4 p-3">
+  <h3>Update Product</h3>
+  <form [formGroup]="updateProductForm" (ngSubmit)="updateProduct()" class="row g-3">
+    <div class="col-md-6">
+      <label>Name</label>
+      <input formControlName="name" class="form-control" required />
+    </div>
+    <div class="col-md-6">
+      <label>Description</label>
+      <input formControlName="description" class="form-control" />
+    </div>
+    <div class="col-md-6">
+      <label>Buying Price</label>
+      <input type="number" formControlName="buyingPrice" class="form-control" required min="0" />
+    </div>
+    <div class="col-md-6">
+      <label>Selling Price</label>
+      <input type="number" formControlName="sellingPrice" class="form-control" required min="0" />
+    </div>
+    <div class="col-md-6">
+      <label>Units in Stock</label>
+      <input type="number" formControlName="unitsInStock" class="form-control" required min="0" />
+    </div>
+    <div class="col-12">
+      <button type="submit" [disabled]="updateProductForm.invalid" class="btn btn-success">Update Product</button>
+      <button type="button" class="btn btn-secondary" (click)="showUpdateProductForm = false; updateProductForm.reset()">Cancel</button>
     </div>
   </form>
 </div>

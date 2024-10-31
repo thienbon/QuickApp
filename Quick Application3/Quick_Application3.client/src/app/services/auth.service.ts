@@ -54,10 +54,7 @@ export class AuthService {
 
     this.router.navigate([page], navigationExtras);
   }
-  signup(username: string, password: string, email: string, phoneNumber: string): Observable<User> {
-    return this.oidcHelperService.signup(username, password, email, phoneNumber)
-      .pipe(map((response: SignupResponse) => this.processSignupResponse(response)));
-  }
+  
   private processSignupResponse(response: SignupResponse): User {
     const idToken = response.id_token;
     const accessToken = response.access_token;

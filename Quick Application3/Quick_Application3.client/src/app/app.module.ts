@@ -57,7 +57,6 @@ import { UserPreferencesComponent } from './components/controls/user-preferences
 import { UsersManagementComponent } from './components/controls/users-management.component';
 import { RolesManagementComponent } from './components/controls/roles-management.component';
 import { RoleEditorComponent } from './components/controls/role-editor.component';
-import { SignupComponent } from './components/signup/signup.component';
 import { ReactiveFormsModule } from '@angular/forms'; 
 
 
@@ -65,7 +64,6 @@ import { ReactiveFormsModule } from '@angular/forms';
   declarations: [
     AppComponent,
     LoginComponent,
-    SignupComponent,
     HomeComponent,
     CustomersComponent,
     ProductsComponent,

@@ -10,7 +10,6 @@ import { RouterModule, Routes, DefaultUrlSerializer, UrlSerializer, UrlTree, Tit
 import { LoginComponent } from './components/login/login.component';
 
 import { HomeComponent } from './components/home/home.component';
-import { SignupComponent } from './components/signup/signup.component';
 import { CustomersComponent } from './components/customers/customers.component';
 import { ProductsComponent } from './components/products/products.component';
 import { OrdersComponent } from './components/orders/orders.component';
@@ -48,7 +47,6 @@ export class LowerCaseUrlSerializer extends DefaultUrlSerializer {
 const routes: Routes = [
   { path: '', component: HomeComponent, canActivate: [AuthGuard], title: 'Home' },
   { path: 'login', component: LoginComponent, title: 'Login' },
-  { path: 'signup', component: SignupComponent, title: 'Signup' },
   { path: 'customers', component: CustomersComponent, canActivate: [AuthGuard], title: 'Customers' },
   { path: 'products', component: ProductsComponent, canActivate: [AuthGuard], title: 'Products' },
   { path: 'orders', component: OrdersComponent, canActivate: [AuthGuard], title: 'Orders' },

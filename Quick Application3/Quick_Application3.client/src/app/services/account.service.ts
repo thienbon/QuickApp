@@ -19,11 +19,7 @@ import { HttpClient } from '@angular/common/http';
 
 export type RolesChangedOperation = 'add' | 'delete' | 'modify';
 export interface RolesChangedEventArg { roles: Role[] | string[]; operation: RolesChangedOperation; }
-interface SignupResponse {
-  success: boolean;
-  message?: string;
-  userId?: string;
-}
+
 @Injectable()
 export class AccountService {
   public static readonly roleAddedOperation: RolesChangedOperation = 'add';
@@ -45,10 +41,7 @@ export class AccountService {
   getUser(userId?: string) {
     return this.accountEndpoint.getUserEndpoint<User>(userId);
   }
-  signup(user: UserEdit): Observable<SignupResponse> {
-    const apiUrl = this.baseUrl.replace('http:', 'https:');
-    return this.http.post<SignupResponse>(`${apiUrl}/api/account/register`, user);
-  }
+  
 
   getUserAndRoles(userId?: string) {
     return forkJoin([

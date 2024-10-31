@@ -1,9 +1,11 @@
-export class UserSignup {
-  constructor(
-    public userName = '',           // "user"
-    public newPassword = '',        // "tempP@ss123"
-    public fullName = '',          // "Inbuilt Standard User"
-    public email = '',             // "user@ebenmonney.com"
-    public phoneNumber = '',       // "+1 (123) 000-0001"
-  ) { }
+export interface Signup {
+  id: string;
+  userName: string;
+  fullName: string;
+  jobTitle: string;
+  newPassword: string;
+  roles: string[];
+  email?: string;
+  firstName?: string;
+  lastName?: string;
 }
